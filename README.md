@@ -1,6 +1,6 @@
 ## "Experience"
 
-Director of Cross-Modal Integration for Advanced Data Ecosystems, focused on emergent community dynamics and optimized organizational flow through the Open Systems Initiative via the Institute for Probabilistic Maybes. 
+Director of Cross-Modal Integration for Advanced Data Ecosystems focusing on emergent community dynamics and optimized organizational flow through the Open Systems Initiative via the Institute for Probabilistic Maybes. 
 
 Previously, 
 Lead Architect of Granular Systems at the Global Consortium for Adaptive Dependencies & Predictive Modeling. 
