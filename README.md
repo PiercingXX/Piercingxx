@@ -17,7 +17,7 @@ If you’re still stuck in a single‑modal world, you’re probably still using
 
   
 
-I’m the *god* of **complex systems** and **strategic disruption**. My résumé reads like a comic book:
+I’m the *king* of **complex systems** and **strategic disruption**. My résumé reads like a comic book:
 
 - **Lead Architect, Granular Systems** – Global Consortium for Adaptive Dependencies & Predictive Modeling (yeah, I built a whole universe).
 
