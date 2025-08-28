@@ -1,5 +1,4 @@
-# **PiercingXX – The Maestro of Messed‑Up Mastery** | Because mediocre is for mortals.
-
+# **PiercingXX – The Maestro of Messed‑Up Mastery**
 
 
 > **Director of Cross‑Modal Integration**
