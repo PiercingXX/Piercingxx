@@ -2,7 +2,7 @@
 
 
 > **Director of Cross‑Modal Integration**
-> Jugging data ecosystems, emergent community dynamics, and organizational flow like a caffeinated octopus—*all* at once, through the Open Systems Initiative at the Institute for Probabilistic Maybes.
+> > Jugging data ecosystems, emergent community dynamics, and organizational flow like a caffeinated octopus—*all* at once, through the Open Systems Initiative at the Institute for Probabilistic Maybes.
 
 
 ---
