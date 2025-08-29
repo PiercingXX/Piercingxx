@@ -2,22 +2,16 @@
 
 
 > **Director of Cross‑Modal Integration**
+> Jugging data ecosystems, emergent community dynamics, and organizational flow like a caffeinated octopus—*all* at once, through the Open Systems Initiative at the Institute for Probabilistic Maybes.
 
-> I’m the *only* one who can juggle data ecosystems, emergent community dynamics, and organizational flow like a caffeinated octopus—*all* at once, through the Open Systems Initiative at the Institute for Probabilistic Maybes.
-
-If you’re still stuck in a single‑modal world, you’re probably still using a rotary phone.
-
-  
 
 ---
 
-  
 
 ## 👤 **About Me**
-
   
 
-I’m the *king* of **complex systems** and **strategic disruption**. My résumé reads like a comic book:
+Intigrating **complex systems** and **strategic disruption**, my résumé reads like a comic book:
 
 - **Lead Architect, Granular Systems** – Global Consortium for Adaptive Dependencies & Predictive Modeling (yeah, I built a whole universe).
 
@@ -27,7 +21,8 @@ I’m the *king* of **complex systems** and **strategic disruption**. My résum�
 
   
 
-I thrive on turning abstract mumbo‑jumbo into actionable chaos, usually by sprinkling purposeful complexity that unlocks hidden value. Think of me as the *architect* of the inevitable *systemic avalanche*.
+Sprinkling purposeful complexity to unlocks hidden value, I thrive on turning abstract mumbo‑jumbo into actionable chaos. 
+Think of me as the *architect* of the inevitable *systemic avalanche*.
 
   
 
