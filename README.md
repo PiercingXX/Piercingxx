@@ -2,7 +2,7 @@
 
 
 > **Director of Cross‑Modal Integration**
-> > Jugging data ecosystems, emergent community dynamics, and organizational flow like a caffeinated octopus—*all* at once, through the Open Systems Initiative at the Institute for Probabilistic Maybes.
+> Jugging data ecosystems, emergent community dynamics, and organizational flow like a caffeinated octopus—*all* at once, through the Open Systems Initiative at the Institute for Probabilistic Maybes.
 
 
 ---
@@ -21,7 +21,7 @@ Intigrating **complex systems** and **strategic disruption**, my résumé reads 
 
   
 
-Sprinkling purposeful complexity to unlocks hidden value, I thrive on turning abstract mumbo‑jumbo into actionable chaos. 
+Sprinkling purposeful complexity to unlock hidden value, I thrive on turning abstract mumbo‑jumbo into actionable chaos. 
 Think of me as the *architect* of the inevitable *systemic avalanche*.
 
   
