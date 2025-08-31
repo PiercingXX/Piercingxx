@@ -3,16 +3,16 @@
 
 > **Director of Cross‑Modal Integration**
 >  
-> Jugging data ecosystems, emergent community dynamics, and organizational flow like a caffeinated octopus—*all* at once, through the Open Systems Initiative at the Institute for Probabilistic Maybes.
+> Jugging data ecosystems, emergent community dynamics, and organizational flow like a caffeinated octopus—*all* at once, at the Institute for Probabilistic Maybes.
 
 
 ---
 
 
 ## 👤 **About Me**
-  
 
-Intigrating **complex systems** and **strategic disruption**, my résumé reads like a comic book:
+
+Integrating **complex systems** and **strategic disruption**, my résumé reads like a comic book:
 
 - **Lead Architect, Granular Systems** – Global Consortium for Adaptive Dependencies & Predictive Modeling (yeah, I built a whole universe).
 
@@ -20,20 +20,20 @@ Intigrating **complex systems** and **strategic disruption**, my résumé reads 
 
 - **Director of Cross‑Modal Integration** – Advanced Data Ecosystems (I make data dance).
 
-  
+
 
 Sprinkling purposeful complexity to unlock hidden value, I thrive on turning abstract mumbo‑jumbo into actionable chaos. 
 Think of me as the *architect* of the inevitable *systemic avalanche*.
 
-  
+
 
 ---
 
-  
+
 
 ## 🚀 **Core Focus Areas**
 
-  
+
 
 | Area | What I Do | Impact |
 |------|-----------|--------|
@@ -43,14 +43,14 @@ Think of me as the *architect* of the inevitable *systemic avalanche*.
 | **Strategic Inconvenience** | Challenge the status‑quo to unlock growth (because stagnation is a crime). | Enhances adaptability (and my reputation). |
 | **Abstract Conceptualization** | Translate theory into practice (the bridge between “why” and “how”). | Bridges gaps between disciplines (and my portfolio). |
 | **Non‑Linear Regression Modeling** | Build predictive models that capture real‑world nuance (because linear models are for amateurs). | Increases forecasting accuracy (and my bragging rights). |
-  
+
 
 ---
 
-  
+
 
 ## 📬 **Get in Touch**
 
-  
+
 
 - **Email**: Don't.
