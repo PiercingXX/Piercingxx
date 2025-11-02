@@ -9,13 +9,9 @@
 Fusing **complex systems** with **strategic disruption**:
 
 - **Lead Architect, Granular Systems** – Global Consortium for Adaptive Dependencies & Predictive Modeling (I didn’t just build a universe—I defined its laws).
-- **Senior Team Lead, Pointless Particulars** – Because “pointless” is merely innovation misunderstood by lesser minds.
-- **Director of Cross‑Modal Integration** – Advanced Data Ecosystems.
-
 
 I specialize in engineering purposeful complexity to extract latent value, transforming abstract challenges into practical solutions.  
 Think of me as the *architect* who anticipates the systemic avalanche—and ensures everyone is ready for it.
-
 
 
 ---
