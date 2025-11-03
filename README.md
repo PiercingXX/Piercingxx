@@ -1,25 +1,6 @@
 # PiercingXX
 > I bend Linux to my will so you don’t have to. Desktops, tablets, servers—press the button, watch the chaos organize itself.
 
-<div align="center">
-
-	<!-- fun banner -->
-	<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=1200&center=true&vCenter=true&width=720&lines=Hyprland+whisperer;Dotfile+dictator;Wayland+evangelist;Tablet+tamer;Scripts+%3E+Screenshots" alt="typing banner" />
-
-	<!-- badges: keep it loud, keep it useful -->
-	<br/>
-	<img src="https://img.shields.io/badge/Linux-0B0B0B?style=for-the-badge&logo=linux&logoColor=white" alt="Linux"/>
-	<img src="https://img.shields.io/badge/Arch-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" alt="Arch Linux"/>
-	<img src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white" alt="Debian"/>
-	<img src="https://img.shields.io/badge/Fedora-51A2DA?style=for-the-badge&logo=fedora&logoColor=white" alt="Fedora"/>
-	<img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash"/>
-	<img src="https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white" alt="Neovim"/>
-	<img src="https://img.shields.io/badge/Flatpak-4A90E2?style=for-the-badge&logo=flatpak&logoColor=white" alt="Flatpak"/>
-	<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-	<img src="https://img.shields.io/badge/NVIDIA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="NVIDIA"/>
-	<img src="https://img.shields.io/badge/systemd-222222?style=for-the-badge&logo=systemd&logoColor=white" alt="systemd"/>
-
-</div>
 
 ---
 
