@@ -1,34 +1,131 @@
-# **PiercingXX**  
->  
-> Orchestrating data ecosystems, emergent community dynamics, and organizational flow.
+# PiercingXX
+> I bend Linux to my will so you don’t have to. Desktops, tablets, servers—press the button, watch the chaos organize itself.
+
+<div align="center">
+
+	<!-- fun banner -->
+	<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=1200&center=true&vCenter=true&width=720&lines=Hyprland+whisperer;Dotfile+dictator;Wayland+evangelist;Tablet+tamer;Scripts+%3E+Screenshots" alt="typing banner" />
+
+	<!-- badges: keep it loud, keep it useful -->
+	<br/>
+	<img src="https://img.shields.io/badge/Linux-0B0B0B?style=for-the-badge&logo=linux&logoColor=white" alt="Linux"/>
+	<img src="https://img.shields.io/badge/Arch-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" alt="Arch Linux"/>
+	<img src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white" alt="Debian"/>
+	<img src="https://img.shields.io/badge/Fedora-51A2DA?style=for-the-badge&logo=fedora&logoColor=white" alt="Fedora"/>
+	<img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash"/>
+	<img src="https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white" alt="Neovim"/>
+	<img src="https://img.shields.io/badge/Flatpak-4A90E2?style=for-the-badge&logo=flatpak&logoColor=white" alt="Flatpak"/>
+	<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+	<img src="https://img.shields.io/badge/NVIDIA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="NVIDIA"/>
+	<img src="https://img.shields.io/badge/systemd-222222?style=for-the-badge&logo=systemd&logoColor=white" alt="systemd"/>
+
+</div>
 
 ---
 
-## 👤 **About Me**
+## About ⚙️
 
+<<<<<<< Updated upstream
 Fusing **complex systems** with **strategic disruption**:
 
 - **Lead Architect, Granular Systems** – Global Consortium for Adaptive Dependencies & Predictive Modeling (I didn’t just build a universe—I defined its laws).
 
 I specialize in engineering purposeful complexity to extract latent value, transforming abstract challenges into practical solutions.  
 Think of me as the *architect* who anticipates the systemic avalanche—and ensures everyone is ready for it.
+=======
+I build reproducible Linux environments and dotfile ecosystems, optimize Wayland desktops (Hyprland, GNOME, etc.), and ship menu‑driven installers that turn “fresh ISO” into “daily driver” before your coffee cools. Yes, it’s opinionated. No, I won’t apologize. My work spans:
+>>>>>>> Stashed changes
 
+- Distro installers for Arch, Debian, and Fedora
+- A comprehensive dotfiles suite with unified UX across WMs
+- Device enablement (Surface devices, NuVision tablet, touchscreens)
+- Workstation/server bootstrap for media, CUDA, Docker, and local AI
+
+<<<<<<< Updated upstream
+=======
+If you like scripts that remove friction, enforce taste, and deliver a clean Wayland UX—this is that. If you don’t, there’s always “try turning it off and on again.”
+
+>>>>>>> Stashed changes
+---
+
+## What I build 🧰
+
+- Arch / Debian / Fedora “mod” installers
+	- Menu‑driven setup (whiptail) with sensible defaults (mine)
+	- Hyprland + GNOME options, Flatpak, UFW, developer tooling
+	- Optional NVIDIA + Microsoft Surface kernel support (for the brave)
+- Piercing‑Dots
+	- One repo to keep your machine updated and configured
+	- Hyprland/Awesome/BSPWM/i3/Sway, eww/waybar, kitty, Neovim, Yazi, GIMP
+	- Maintenance and software manager scripts so you stop copy‑pasting from blogs
+- Device enablement
+	- Surface kernel helpers and services
+	- NuVision 8" tablet Wi‑Fi/Bluetooth/Audio fixes (you’re welcome)
+	- KooTigers touchscreen/driver utilities
+- Workstations & servers
+	- Debian server bootstrap with CUDA/NVIDIA, Docker/Compose, Nextcloud
+	- Local LLMs with Ollama, creative tooling (DaVinci Resolve), fonts
 
 ---
 
-## 🚀 **Core Focus Areas**
+## Selected projects 📦
 
-| Area | What I Do | Impact |
-|------|-----------|--------|
-| **Applied Entropy** | Design systems that *embrace* uncertainty (where others see risk, I see opportunity). | Builds resilience and future‑proofs organizations. |
-| **Elegant Complexity** | Develop non‑linear solutions for intricate problems. | Sparks innovation and creative thinking. |
-| **Complex Systems Disruption** | Identify leverage points in vast networks. | Accelerates transformation and growth. |
-| **Strategic Adaptation** | Challenge the status quo to unlock new potential. | Enhances adaptability and progress. |
-| **Abstract Conceptualization** | Bridge theory and practice across disciplines. | Fosters collaboration and broadens horizons. |
-| **Non‑Linear Regression Modeling** | Create predictive models that capture real‑world nuance. | Improves forecasting and decision‑making. |
+| Project | What it does | Highlights |
+|---|---|---|
+| [arch‑mod](https://github.com/PiercingXX/arch-mod) | Full‑featured Arch workstation installer | Hyprland/GNOME, Paru+Flatpak, UFW, NVIDIA/Surface options |
+| [arch‑mini‑mod](https://github.com/PiercingXX/arch-mini-mod) | Minimal Arch + Hyprland for tablets and low‑resource devices | Touch‑friendly, NuVision/KooTigers resources, lean setup |
+| [debian‑mod](https://github.com/PiercingXX/debian-mod) | One‑step Debian workstation | Hyprland session, NVIDIA/Surface options, Flatpak |
+| [fedora‑mod](https://github.com/PiercingXX/fedora-mod) | Menu‑driven Fedora setup | GNOME customizations, Cosmic/Hyprland options, Surface |
+| [debian‑server](https://github.com/PiercingXX/debian-server) | Server/workstation bootstrap | NVIDIA+CUDA, Docker/Compose, Nextcloud, Ollama, Resolve |
+| [piercing‑dots](https://github.com/PiercingXX/piercing-dots) | Dotfiles + maintenance | WM dots (Hyprland/Awesome/BSPWM/i3/Sway), Neovim, eww/waybar, GIMP, scripts |
+
+Bonus: Raspberry Pi experiments live in `Pi-Gnome/`. No, they’re not “production ready.” They’re fun.
 
 ---
 
-## 📬 **Get in Touch**
+## Chaos metrics (because graphs) 📈
 
-- **Email**: Don’t.
+<div align="center">
+
+		<img src="https://github-readme-stats.vercel.app/api?username=Piercingxx&show_icons=true&theme=aura&hide_border=true" alt="GitHub stats" height="150"/>
+		<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Piercingxx&layout=compact&theme=aura&hide_border=true" alt="Top languages" height="150"/>
+	<br/>
+		<img src="https://streak-stats.demolab.com?user=Piercingxx&theme=aura&hide_border=true" alt="GitHub streak" height="180"/>
+	<br/>
+		<img src="https://github-profile-trophy.vercel.app/?username=Piercingxx&theme=aura&no-frame=true&margin-w=6&margin-h=6" alt="Trophies"/>
+
+</div>
+
+---
+
+## How I work 🧪
+
+- POSIX‑first Bash with clear prompts and escape hatches
+- Reproducibility over hand‑tweaking; scripts > screenshots (always)
+- Wayland‑centric desktop ergonomics (fast keybinds, low friction)
+- Minimal dependencies, sane defaults, readable code, zero drama
+
+---
+
+## Tech I reach for 🛠️
+
+- Bash, systemd (grub when needed), whiptail
+- Hyprland, GNOME, eww, waybar, kitty, Yazi, Neovim
+- Pacman/Paru, apt, dnf, Flatpak
+- Docker/Compose, NVIDIA + CUDA, Nextcloud, Ollama
+
+---
+
+## Philosophy (short version) 🌀
+
+- Applied entropy: build systems that stay useful as the world changes
+- Elegant complexity: hide the sharp edges, keep the power
+- Repeatable results: a fresh install should feel like home in minutes
+- Defaults with a spine: opinions included at no extra charge
+
+---
+
+## Contact 📮
+
+- Email: Don’t.
+	Open an issue in the relevant repo instead. If it’s a rant, make it entertaining.
