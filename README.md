@@ -25,27 +25,15 @@
 
 ## About ⚙️
 
-<<<<<<< Updated upstream
-Fusing **complex systems** with **strategic disruption**:
-
-- **Lead Architect, Granular Systems** – Global Consortium for Adaptive Dependencies & Predictive Modeling (I didn’t just build a universe—I defined its laws).
-
-I specialize in engineering purposeful complexity to extract latent value, transforming abstract challenges into practical solutions.  
-Think of me as the *architect* who anticipates the systemic avalanche—and ensures everyone is ready for it.
-=======
 I build reproducible Linux environments and dotfile ecosystems, optimize Wayland desktops (Hyprland, GNOME, etc.), and ship menu‑driven installers that turn “fresh ISO” into “daily driver” before your coffee cools. Yes, it’s opinionated. No, I won’t apologize. My work spans:
->>>>>>> Stashed changes
 
 - Distro installers for Arch, Debian, and Fedora
 - A comprehensive dotfiles suite with unified UX across WMs
 - Device enablement (Surface devices, NuVision tablet, touchscreens)
 - Workstation/server bootstrap for media, CUDA, Docker, and local AI
 
-<<<<<<< Updated upstream
-=======
 If you like scripts that remove friction, enforce taste, and deliver a clean Wayland UX—this is that. If you don’t, there’s always “try turning it off and on again.”
 
->>>>>>> Stashed changes
 ---
 
 ## What I build 🧰
