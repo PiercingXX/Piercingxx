@@ -52,21 +52,6 @@ Bonus: Raspberry Pi experiments live in `Pi-Gnome/`. No, they’re not “produc
 
 ---
 
-## Chaos metrics (because graphs) 📈
-
-<div align="center">
-
-		<img src="https://github-readme-stats.vercel.app/api?username=Piercingxx&show_icons=true&theme=aura&hide_border=true" alt="GitHub stats" height="150"/>
-		<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Piercingxx&layout=compact&theme=aura&hide_border=true" alt="Top languages" height="150"/>
-	<br/>
-		<img src="https://streak-stats.demolab.com?user=Piercingxx&theme=aura&hide_border=true" alt="GitHub streak" height="180"/>
-	<br/>
-		<img src="https://github-profile-trophy.vercel.app/?username=Piercingxx&theme=aura&no-frame=true&margin-w=6&margin-h=6" alt="Trophies"/>
-
-</div>
-
----
-
 ## How I work 🧪
 
 - POSIX‑first Bash with clear prompts and escape hatches
