@@ -1,6 +1,5 @@
 # PiercingXX
-> I bend Linux to my will so you don’t have to. Desktops, tablets, servers—press the button, watch the chaos organize itself.
-
+> I bend Linux to my will so you don’t have to. Desktops, tablets, servers —press the button, watch the chaos organize itself.
 
 ---
 
@@ -79,7 +78,16 @@ Bonus: Raspberry Pi experiments live in `Pi-Gnome/`. No, they’re not “produc
 
 ---
 
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Piercingxx&layout=compact&theme=aura&hide_border=true" height="150"/>
+<img src="https://streak-stats.demolab.com?user=Piercingxx&theme=aura&hide_border=true" height="180"/>
+</div>
+
+---
+
 ## Contact 📮
 
-- Email: Don’t.
+- Email: Don’t
+
 	Open an issue in the relevant repo instead. If it’s a rant, make it entertaining.
+---
