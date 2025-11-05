@@ -20,18 +20,22 @@ If you like scripts that remove friction, enforce taste, and deliver a clean Way
 
 - Arch / Debian / Fedora “mod” installers
 	- Menu‑driven setup (whiptail) with sensible defaults (mine)
-	- Hyprland + GNOME options, Flatpak, UFW, developer tooling
+	- Hyprland + GNOME mods, Flatpak, UFW, developer tooling
 	- Optional NVIDIA + Microsoft Surface kernel support (for the brave)
 - Piercing‑Dots
 	- One repo to keep your machine updated and configured
-	- Hyprland/Awesome/BSPWM/i3/Sway, eww/waybar, kitty, Neovim, Yazi, GIMP
+	- Hyprland and Gnome are fully built out. Awesome/BSPWM/i3/Sway are mostly there/depreciated
+	- Waybar, kitty, Neovim, Yazi, GIMP are all heavily customized into minimal yet fully functional power houses.
 	- Maintenance and software manager scripts so you stop copy‑pasting from blogs
+	- '<Super> /' will open your Cheat Sheet
+- Bash driven Settings Menu
+	- Dont leave the keyboard, '<Super> S' and your in my settings menu
 - Device enablement
 	- Surface kernel helpers and services
 	- NuVision 8" tablet Wi‑Fi/Bluetooth/Audio fixes (you’re welcome)
 	- KooTigers touchscreen/driver utilities
 - Workstations & servers
-	- Debian server bootstrap with CUDA/NVIDIA, Docker/Compose, Nextcloud
+	- Debian server bootstrap with CUDA/NVIDIA, Docker/Compose, Nextcloud set up for local AI and self hosting needs.
 	- Local LLMs with Ollama, creative tooling (DaVinci Resolve), fonts
 
 ---
