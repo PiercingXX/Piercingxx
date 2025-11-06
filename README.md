@@ -84,6 +84,8 @@ Bonus: Raspberry Pi experiments live in `Pi-Gnome/`. No, they’re not “produc
 
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Piercingxx&layout=compact&theme=aura&hide_border=true" height="150"/>
+</div>
+<div align="center">
 <img src="https://streak-stats.demolab.com?user=Piercingxx&theme=aura&hide_border=true" height="180"/>
 </div>
 
