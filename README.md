@@ -5,7 +5,9 @@
 
 ## About ⚙️
 
-I build reproducible Linux environments and dotfile ecosystems, optimize Wayland desktops (Hyprland, GNOME, etc.), and ship menu‑driven installers that turn “fresh ISO” into “daily driver” before your coffee cools. Yes, it’s opinionated. No, I won’t apologize. My work spans:
+I build reproducible Linux environments and dotfile ecosystems, optimize Wayland desktops (Hyprland, GNOME, etc.), and ship menu‑driven installers that turn “fresh ISO” into “daily driver” before your coffee cools. 
+Yes, it’s opinionated. No, I won’t apologize. 
+My work spans:
 
 - Distro installers for Arch, Debian, and Fedora
 - A comprehensive dotfiles suite with unified UX across WMs
