@@ -11,8 +11,8 @@ My work spans:
 
 - Distro installers for Arch, Debian, and Fedora
 - A comprehensive dotfiles suite with unified UX across WMs
-- Device enablement (Surface devices, NuVision tablet, touchscreens)
-- Workstation/server bootstrap for media, CUDA, Docker, and local AI
+- Device enablement (Surface devices, and more obsecure tablets and touchscreens)
+- Workstation/server bootstrap for self hosting, business communications, media rendering with Docker and local AI.
 
 If you like scripts that remove friction, enforce taste, and deliver a clean Wayland UX—this is that. If you don’t, there’s always “try turning it off and on again.”
 
@@ -68,7 +68,7 @@ Bonus: Raspberry Pi experiments live in `Pi-Gnome/`. No, they’re not “produc
 
 ## Tech I reach for 🛠️
 
-- Bash, systemd (grub when needed), whiptail
+- Bash, systemd, whiptail
 - Hyprland, GNOME, eww, waybar, kitty, Yazi, Neovim
 - Pacman/Paru, apt, dnf, Flatpak
 - Docker/Compose, NVIDIA + CUDA, Nextcloud, Ollama
