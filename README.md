@@ -12,7 +12,7 @@ My work spans:
 - Distro installers for Arch, Debian, and Fedora
 - A comprehensive dotfiles suite with unified UX across WMs
 - Device enablement (Surface devices, and more obsecure tablets and touchscreens)
-- Workstation/server bootstrap for self hosting, business communications, media rendering with Docker and local AI.
+- Workhorse server for self hosting: website, local AI, business communications, and storage.
 
 If you like scripts that remove friction, enforce taste, and deliver a clean Wayland UX—this is that. If you don’t, there’s always “try turning it off and on again.”
 
