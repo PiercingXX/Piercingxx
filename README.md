@@ -50,7 +50,7 @@ If you like scripts that remove friction, enforce taste, and deliver a clean Way
 | [arch‑mini‑mod](https://github.com/PiercingXX/arch-mini-mod) | Minimal Arch + Hyprland for tablets and low‑resource devices | Touch‑friendly, NuVision/KooTigers resources, lean setup |
 | [debian‑mod](https://github.com/PiercingXX/debian-mod) | One‑step Debian workstation | Hyprland session, NVIDIA/Surface options, Flatpak |
 | [fedora‑mod](https://github.com/PiercingXX/fedora-mod) | Menu‑driven Fedora setup | GNOME customizations, Cosmic/Hyprland options, Surface |
-| [debian‑server](https://github.com/PiercingXX/debian-server) | Server/workstation bootstrap | NVIDIA+CUDA, Docker/Compose, Nextcloud, Ollama, Resolve |
+| [debian‑server](https://github.com/PiercingXX/debian-server) | Headless Server | NVIDIA+CUDA, Docker, Nextcloud, Ollama, Nginx, Cloudflare |
 | [piercing‑dots](https://github.com/PiercingXX/piercing-dots) | Dotfiles + maintenance | WM dots (Hyprland/Awesome/BSPWM/i3/Sway), Neovim, eww/waybar, GIMP, scripts |
 
 Bonus: Raspberry Pi experiments live in `Pi-Gnome/`. No, they’re not “production ready.” They’re fun.
