@@ -14,7 +14,7 @@ My work spans:
 - Device enablement (Surface devices, and more obsecure tablets and touchscreens)
 - Workhorse server for self hosting: website, local AI, business communications, and storage.
 
-If you like scripts that remove friction, enforce taste, and deliver a clean Wayland UX—this is that. If you don’t, there’s always “try turning it off and on again.”
+If you like scripts that remove friction, enforce taste, and deliver a clean Wayland UX—this is that. If you don’t, oh well.
 
 ---
 
