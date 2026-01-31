@@ -70,7 +70,7 @@ Bonus: Raspberry Pi experiments live in `Pi-Gnome/`. No, they’re not “produc
 
 - Bash, systemd, whiptail
 - Hyprland, GNOME, eww, waybar, kitty, Yazi, Neovim
-- Pacman/Paru, apt, dnf, Flatpak
+- Pacman/Paru, apt, Flatpak...build from source when needed (Neovim Nightly & Yazi)
 - Docker/Compose, NVIDIA + CUDA, Nextcloud, Ollama
 
 ---
