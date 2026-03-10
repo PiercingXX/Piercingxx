@@ -29,9 +29,9 @@ If you like scripts that remove friction, enforce taste, and deliver a clean Way
 	- Hyprland and Gnome are fully built out. Awesome/BSPWM/i3/Sway are mostly there/depreciated
 	- Waybar, kitty, Neovim, Yazi, GIMP are all heavily customized into minimal yet fully functional power houses.
 	- Maintenance and software manager scripts so you stop copy‑pasting from blogs
-	- '<Super> /' will open your Cheat Sheet
+	- 'Super+/' will open your Cheat Sheet
 - Bash driven Settings Menu
-	- Dont leave the keyboard, "<Super> S" and your in my settings menu
+	- Dont leave the keyboard, "Super+S" and your in my settings menu
 - Device enablement
 	- Surface kernel helpers and services
 	- NuVision 8" tablet Wi‑Fi/Bluetooth/Audio fixes (you’re welcome)
