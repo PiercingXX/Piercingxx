@@ -5,7 +5,7 @@
 
 ## About ⚙️
 
-I build reproducible Linux environments and dotfile ecosystems, optimize Wayland desktops (Hyprland, GNOME, etc.), and ship menu‑driven installers that turn “fresh ISO” into “daily driver” before your coffee cools. 
+I build reproducible Linux environments and dotfile ecosystems, optimize Wayland desktops (Hyprland, GNOME, Sway, etc.), and ship menu‑driven installers that turn “fresh ISO” into “daily driver” before your coffee cools. 
 Yes, it’s opinionated. No, I won’t apologize. 
 My work spans:
 
@@ -55,9 +55,9 @@ If you like scripts that remove friction, enforce taste, and deliver a clean Way
 ## Tech I reach for 🛠️
 
 - Bash, systemd, whiptail
-- Hyprland, GNOME, eww, waybar, kitty, Yazi, Neovim
+- Hyprland, GNOME, kitty, Yazi, Neovim, tmux
 - Pacman/Paru, apt, Flatpak...build from source when needed (Neovim Nightly & Yazi)
-- Docker/Compose, NVIDIA + CUDA, Nextcloud, Ollama
+- Docker/Compose, NVIDIA + CUDA, llama.cpp
 
 ---
 
