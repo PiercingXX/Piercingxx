@@ -26,19 +26,20 @@ If you like scripts that remove friction, enforce taste, and deliver a clean Way
 	- Optional NVIDIA + Microsoft Surface kernel support (for the brave)
 - Piercing‑Dots
 	- One repo to keep your machine updated and configured
-	- Hyprland and Gnome are fully built out. Awesome/BSPWM/i3/Sway are mostly there/depreciated
-	- Waybar, kitty, Neovim, Yazi, GIMP are all heavily customized into minimal yet fully functional power houses.
+	- Hyprland/Sway/BSPWM/Gnome are fully built out. Awesome/i3 are too but depreciated.
+	- Waybar, kitty, Neovim, Yazi, Tmux, GIMP are all heavily customized into minimal yet fully functional power houses.
 	- Maintenance and software manager scripts so you stop copy‑pasting from blogs
 	- 'Super+/' will open your Cheat Sheet
 - Bash driven Settings Menu
-	- Dont leave the keyboard, "Super+S" and your in my settings menu
-- Device enablement
-	- Surface kernel helpers and services
-	- NuVision 8" tablet Wi‑Fi/Bluetooth/Audio fixes (you’re welcome)
-	- KooTigers touchscreen/driver utilities
+	- Dont leave the keyboard, "Super+S" and your in custom settings menu
 - Workstations & servers
 	- Debian server bootstrap with CUDA/NVIDIA, Docker/Compose, Nextcloud set up for local AI and self hosting needs.
 	- Local LLMs with Ollama, creative tooling (DaVinci Resolve), fonts
+ - Device enablement
+ 	- Drivers to enable Linux on devices with some hardware incompatiblities. 
+		- Microsoft Surface kernel script for Surface devices
+		- NuVision 8" tablet Wi‑Fi/Bluetooth/Audio fixes (you’re welcome)
+		- KooTigers touchscreen/driver utilities
 
 ---
 
