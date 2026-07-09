@@ -56,7 +56,7 @@ If you like scripts that remove friction, enforce taste, and deliver a clean Way
 ## Tech I reach for 🛠️
 
 - Bash, systemd, whiptail
-- Hyprland, GNOME, kitty, Yazi, Neovim, tmux
+- Hyprland (also Sway and Herbst. GNOME on tablets), Kitty, Yazi, Neovim, tmux
 - Pacman/Paru, apt, Flatpak...build from source when needed (Neovim Nightly & Yazi)
 - Docker/Compose, NVIDIA + CUDA, llama.cpp
 
