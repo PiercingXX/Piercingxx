@@ -34,7 +34,7 @@ The common thread: local‑first, text‑first, reproducible, and no cloud unles
 - **PiercingXX Launcher** — the same text‑first philosophy, ported to Android (Kotlin). Folders, gestures, six theme presets, JSON backup, work‑profile support — and still no icon grid.
 
 ### Local AI & self‑hosting
-- **Skippy** — a local‑first AI assistant on one box with eight RTX 5090s and zero cloud. Terminal coding agent, tiered per‑person memory, mobile PWA remote over Tailscale, Discord presence (text *and* voice). The brain is served locally; everything else is Skippy — forked, modified, and grown until it goes toe‑to‑toe with the cutting‑edge paid models. Fully solar powered and subscription price: zero.
+- **Skippy** — a local‑first AI assistant on one box and zero cloud. Terminal coding agent, tiered per‑person memory, mobile app remote over Tailscale, Discord presence (text *and* voice). The brain is served locally; everything else is Skippy — forked, modified, and grown until it goes toe‑to‑toe with the cutting‑edge paid models. Fully solar powered and subscription price: zero.
 - **skpp‑radio** — a private local radio station where Skippy writes and voices the ads, controls the Home Assistant speakers, and airs spots on a schedule. Because he can.
 - **wyoming‑sentence‑tts** — a Wyoming‑protocol TTS bridge that streams audio per sentence, so your voice assistant starts talking after the first sentence instead of the last one
 - **XX‑Stack** — self‑hosted‑first AI orchestration: agent contracts, routing policy, an MCP server, and a local inference control plane over Tailscale. Cloud is strictly opt‑in, and it stays that way.
