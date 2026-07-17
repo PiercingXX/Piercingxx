@@ -5,11 +5,18 @@
 
 ## About ⚙️
 
-I started out building reproducible Linux environments and dotfile ecosystems: menu‑driven installers that turn “fresh ISO” into “daily driver”. That’s still here, and still opinionated. But the scope grew.
+I enjoy a simple clean UI. I want a clean dotfile ecosystem with customizations that make sense and eliminate friction. 
+So I made a few things to make that happen:
+	- A series of reproducible Linux menu‑driven installers that turn “fresh ISO” into “daily driver”.
+	- A Wayland shell for Linux phones
+	- An Android launcher for GraphineOS/LineageOS
+	- A local‑first AI assistant that runs entirely locally and can compete with the cutting‑edge paid models. All on hardware I own, with data that never leaves my local network.
+	- A keyboard layout for every platform I touch.
+	
+Where the open source ecosystem falls short, I fork it and grow it. 
+The common thread: local‑first, frictionless, reproducible, and only self hosted cloud. 
 
-I wanted my phone to be just as user friendly as my desktop...so I build a Wayland shell for Linux phones, an Android launcher to match, a local‑first AI assistant that runs entirely on my own hardware, and my own keyboard layout for every platform I touch. Where the open ecosystem falls short, I fork it and grow it until locally hosted AI competes with the cutting‑edge paid models — on hardware I own, with data that never leaves my local network unless I want it to.
-
-The common thread: local‑first, text‑first, reproducible, and no cloud unless I explicitly invite it. Yes, it’s opinionated. No, I won’t apologize.
+Yes, it’s opinionated but that is why its good.
 
 ---
 
@@ -18,8 +25,9 @@ The common thread: local‑first, text‑first, reproducible, and no cloud unles
 ### Installers & dotfiles (the classics)
 - **Distro “mod” installers** — Arch, Debian, Fedora, Void, Artix, PopOS, FreeBSD, plus `mini` variants for tablets and note‑taking machines, and Pi‑Gnome for the Raspberry Pi 5
 	- Menu‑driven setup (whiptail) with sensible defaults (mine)
-	- Hyprland + GNOME mods, Flatpak, UFW, developer tooling
-	- Optional NVIDIA + Microsoft Surface kernel support (for the brave)
+	- Hyprland, Awesome, BSPWM, DWM, i3, Sway, Qtile and GNOME mods, Flatpak, UFW, developer tooling
+	- Optional NVIDIA + Microsoft Surface kernel support assembled for easy script install.
+ 	- Different variants for Workstations/Servers/Tablets/Phones
 - **Piercing‑Dots** — one repo to keep your machine updated and configured
 	- Hyprland, Awesome, BSPWM, DWM, i3, Sway, and Qtile with unified UX across all of them. 
 		- For touchscreen tablets and the like, customized Gnome and my own Piercing WM (see below).
@@ -27,25 +35,31 @@ The common thread: local‑first, text‑first, reproducible, and no cloud unles
 	- Maintenance and software‑manager scripts so you stop copy‑pasting from blogs
 	- `Super+/` opens your Cheat Sheet; `Super+S` opens a bash‑driven settings menu — don’t leave the keyboard
 
-### Mobile Linux (the new frontier)
-- **Piercing WM** — a minimalist Wayland shell for Linux phones. Text‑first, gesture‑driven, AMOLED black, Space Mono. No icon grids, anywhere. Calls, SMS, lock screen, notification shade — all first‑class surfaces, because a daily driver isn’t a demo.
-- **linux‑phone‑mod** — Droidian/Mobian/Ubuntu Touch/PureOS setup in one go, with the full Piercing‑Dots treatment on a phone
+### Mobile Linux
+- **Piercing WM** — a minimalist Wayland shell for Linux phones and tablets. Text‑first, gesture‑driven, AMOLED black, Space Mono. No icon grids, anywhere. Calls, SMS, lock screen, notification shade — all first‑class surfaces. Working toward this being my Daily Driver.
+- **PiercingXX Launcher** — the same text‑first philosophy, ported to Android (Kotlin). Folders, gestures, six theme presets, JSON backup, no icon grid.
 - **furi‑phone‑colemak‑keyboard** — a Squeekboard/Phosh on‑screen Colemak layout tuned for Furi phone screens
-- **PiercingXX Launcher** — the same text‑first philosophy, ported to Android (Kotlin). Folders, gestures, six theme presets, JSON backup, work‑profile support — and still no icon grid.
 
 ### Local AI & self‑hosting
-- **Skippy** — a local‑first AI assistant on one box and zero cloud. Terminal coding agent, tiered per‑person memory, mobile app remote over Tailscale, Discord presence (text *and* voice). The brain is served locally; everything else is Skippy — forked, modified, and grown until it goes toe‑to‑toe with the cutting‑edge paid models. Fully solar powered and subscription price: zero.
-- **skpp‑radio** — a private local radio station where Skippy writes and voices the ads, controls the Home Assistant speakers, and airs spots on a schedule. Because he can.
-- **wyoming‑sentence‑tts** — a Wyoming‑protocol TTS bridge that streams audio per sentence, so your voice assistant starts talking after the first sentence instead of the last one
-- **XX‑Stack** — self‑hosted‑first AI orchestration: agent contracts, routing policy, an MCP server, and a local inference control plane over Tailscale. Cloud is strictly opt‑in, and it stays that way.
-- **debian‑server** — a single‑file bootstrap that turns a fresh Debian box into a media & AI workstation: CUDA/NVIDIA, Docker/Compose, Nextcloud, local LLMs
+- **Skippy** — The local‑first AI assistant on one box and zero cloud.
+	- Skippy is truley a universal AI.
+ 		- Terminal coding agent
+   		- Personal assistant Home Assistant tie-in
+     	- Per‑person/per-location reconization and memory
+     	- Mobile app remote over Tailscale (text *and* voice).
+      	- Optional Discord presence (text *and* voice).
+	- The brain is served locally by whatever model your hardware can manage. 
+   	- Designed to be subscription free. Only runs on local hardware.
+- **skpp‑radio** — a private local radio station that will stream to multiple locations inside your tailscale network. Skippy writes and voices the ads (if you want them), controls the Home Assistant speakers, and airs spots on a schedule. Because he can.
+- **wyoming‑sentence‑tts** — custom fork of the Wyoming‑protocol TTS bridge but this one streams audio per sentence, so your voice assistant starts talking after the first sentence instead of the last one.
+- **XX‑Stack** — self‑hosted‑first AI orchestration: agent contracts, routing policy, an MCP server, and a local inference control plane over Tailscale. Cloud is strictly opt‑in.
 
 ### Input & hardware
 - **Piercing keyboard layout** — my own layout that no one else will ever use. One layout, every platform: Linux (xkb), Windows, Android/GrapheneOS, and QMK/Vial ortho boards.
-- **Device enablement** — drivers and scripts for hardware Linux forgot
+- **Device enablement** — drivers and scripts for hardware that isnt in the Linux kernals.
 	- Microsoft Surface kernel support across the installers
-	- NuVision 8" tablet Wi‑Fi/Bluetooth/Audio fixes (you’re welcome)
-	- KooTigers touchscreen/driver utilities
+	- NuVision 8" tablet Wi‑Fi/Bluetooth/Audio fixes - obsecure old tech that could be perfect.
+	- KooTigers touchscreen/driver utilities - neat little toy that needed some help.
 
 ---
 
@@ -61,11 +75,12 @@ The common thread: local‑first, text‑first, reproducible, and no cloud unles
 
 ## Tech I reach for 🛠️
 
-- Bash, systemd, whiptail
-- Hyprland (also Sway and Herbst; GNOME on tablets; phoc on phones), Kitty, Yazi, Neovim, tmux
+- Bash, systemd (when needed), whiptail
+- Hyprland (also Sway and Herbst; GNOME on tablets; phoc on phones)
+- Kitty, Yazi, Neovim, tmux
 - Python + GTK4/libadwaita + layer‑shell for mobile surfaces; Kotlin for Android
 - Pacman/Paru, apt, xbps, Flatpak… build from source when needed (Neovim Nightly & Yazi)
-- Docker/Compose, NVIDIA + CUDA, SGLang, Ollama, Wyoming/Home Assistant, Tailscale
+- Docker/Compose, NVIDIA + CUDA, SGLang, Ollama, Wyoming/Home Assistant, Tailscale, sglang
 
 ---
 
@@ -89,5 +104,5 @@ The common thread: local‑first, text‑first, reproducible, and no cloud unles
 
 - Email: Don’t
 
-	Open an issue in the relevant repo instead. If it’s a rant, make it entertaining.
+	Open an issue in the relevant repo. If it’s a rant, make it entertaining.
 ---
