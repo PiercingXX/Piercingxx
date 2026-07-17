@@ -12,7 +12,6 @@ I enjoy a simple clean UI based on a reproducable dotfile ecosystem with customi
  	- A Wayland shell for Linux phones
   	- An Android launcher for GraphineOS/LineageOS
   	- A local‑first AI assistant that runs entirely locally and can compete with the cutting‑edge paid models.
-		- All on hardware I own, with data that never leaves my local network.
   	- A keyboard layout for every platform I touch.
 	
 Where the open source ecosystem falls short, I fork it and grow it. 
