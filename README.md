@@ -1,5 +1,5 @@
 # PiercingXX
-> I bend Linux to my will so you don’t have to. Desktops, tablets, servers, phones — press the button, watch the chaos organize itself.
+> I bend Linux to my will so you don’t have to. Workstations, laptops, tablets, servers, phones — press the button, watch the chaos organize itself.
 
 ---
 
