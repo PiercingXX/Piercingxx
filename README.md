@@ -7,7 +7,7 @@
 
 I enjoy a simple clean UI based on a reproducable dotfile ecosystem with customizations that make sense and eliminate friction. 
 
-- I made a few things to make that happen:
+- I had to build a few things to make that happen though:
 	- A series of reproducible Linux menu‑driven installers that turn “fresh ISO” into “daily driver”.
  	- A Wayland shell for Linux phones
   	- An Android launcher for GraphineOS/LineageOS
