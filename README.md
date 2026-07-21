@@ -37,8 +37,13 @@ Yes, it’s opinionated but that is why its good.
 	- `Super+/` opens your Cheat Sheet; `Super+S` opens a bash‑driven settings menu — don’t leave the keyboard
 
 ### Mobile Linux
-Unfortionalely the mobile market is overrun by two equally non-valid options and Linux phones are way under developed with many issues and not enough finacial backing to make it a viable market...yet. 
-My daily is a Pixel running GraphineOS until there is a viable Linux option. So far the best option I found is the Fury Phone. There are still some minor issues keeping it from being a daily driver option. So I'm building my own in the mean time.
+Unfortionalely the mobile market is overrun by two equally non-valid options...then there are Linux phones, also not valid but for different reasons. They are way under developed with many issues and not enough finacial backing to make it a viable market...yet. 
+
+While we wait on a viable Linux device my daily is a Pixel running GraphineOS. 
+I built my own launcher as the first step to building the inteface for my linux touch screen devices. 
+
+So far the best phone option I have found is the Fury Phone. There are still some minor issues keeping it from being a daily driver option though.
+
 - **Piercing WM** — a minimalist Wayland shell for Linux phones and tablets. Text‑first, gesture‑driven, AMOLED black, Space Mono. No icon grids, anywhere. Calls, SMS, lock screen, notification shade — all first‑class surfaces. Working toward this being my Daily Driver.
 - **PiercingXX Launcher** — the same text‑first philosophy, ported to Android (Kotlin). Folders, gestures, six theme presets, JSON backup, no icon grid.
 - **furi‑phone‑colemak‑keyboard** — a Squeekboard/Phosh on‑screen Colemak layout tuned for Furi phone screens
