@@ -5,9 +5,9 @@
 
 ## About ⚙️
 
-I enjoy a simple clean UI based on a reproducable dotfile ecosystem with customizations that make sense and eliminate friction. 
+Simple clean UI based on a reproducible dotfile ecosystem with customization that make sense and eliminate friction. 
 
-- I had to build a few things to make that happen though:
+- I had to build a few things to make that happen:
 	- A series of reproducible Linux menu‑driven installers that turn “fresh ISO” into “daily driver”.
  	- A Wayland shell for Linux phones
   	- An Android launcher for GraphineOS/LineageOS
@@ -15,7 +15,6 @@ I enjoy a simple clean UI based on a reproducable dotfile ecosystem with customi
   	- A keyboard layout for every platform I touch.
 	
 Where the open source ecosystem falls short, I fork it and grow it. 
-The common thread: local‑first, frictionless, reproducible, and only self hosted cloud. 
 
 Yes, it’s opinionated but that is why its good.
 
@@ -37,7 +36,7 @@ Yes, it’s opinionated but that is why its good.
 	- `Super+/` opens your Cheat Sheet; `Super+S` opens a bash‑driven settings menu — don’t leave the keyboard
 
 ### Mobile Linux
-Unfortionalely the mobile market is overrun by two equally non-valid options...then there are Linux phones, also not valid but for different reasons. They are way under developed with many issues and not enough finacial backing to make it a viable market...yet. 
+Unfortunately the mobile market is overrun by two equally non-valid options...then there are Linux phones, also not valid but for different reasons. They are way under developed with many issues and not enough financial backing to make it a viable market...yet. 
 
 While we wait on a viable Linux device my daily is a Pixel running GraphineOS. 
 I built my own launcher as the first step to building the inteface for my linux touch screen devices. 
@@ -49,11 +48,11 @@ So far the best phone option I have found is the Fury Phone. There are still som
 - **furi‑phone‑colemak‑keyboard** — a Squeekboard/Phosh on‑screen Colemak layout tuned for Furi phone screens
 
 ### Local AI & self‑hosting
-- **Skippy** — The local‑first AI assistant on one box and zero cloud.
-	- Skippy is truley a universal AI.
+- **Skippy** — The local‑first AI assistant on my own hardware and private cloud.
+	- Skippy is truly a universal AI.
  		- Terminal coding agent
    		- Personal assistant Home Assistant tie-in
-     	- Per‑person/per-location reconization and memory
+     	- Per‑person/per-location recognition and memory
      	- Mobile app remote over Tailscale (text *and* voice).
       	- Optional Discord presence (text *and* voice).
 	- The brain is served locally by whatever model your hardware can manage. 
@@ -64,7 +63,7 @@ So far the best phone option I have found is the Fury Phone. There are still som
 
 ### Input & hardware
 - **Piercing keyboard layout** — my own layout that no one else will ever use. One layout, every platform: Linux (xkb), Windows, Android/GrapheneOS, and QMK/Vial ortho boards.
-- **Device enablement** — drivers and scripts for hardware that isnt in the Linux kernals.
+- **Device enabling** — drivers and scripts for hardware that isnt in the Linux kernals.
 	- Microsoft Surface kernel support across the installers
 	- NuVision 8" tablet Wi‑Fi/Bluetooth/Audio fixes - obsecure old tech that could be perfect.
 	- KooTigers touchscreen/driver utilities - neat little toy that needed some help.
@@ -88,7 +87,7 @@ So far the best phone option I have found is the Fury Phone. There are still som
 - Kitty, Yazi, Neovim, tmux
 - Python + GTK4/libadwaita + layer‑shell for mobile surfaces; Kotlin for Android
 - Pacman/Paru, apt, xbps, Flatpak… build from source when needed (Neovim Nightly & Yazi)
-- Docker/Compose, NVIDIA + CUDA, SGLang, Ollama, Wyoming/Home Assistant, Tailscale, sglang
+- Docker/Compose, NVIDIA + CUDA, SGLang, Wyoming/Home Assistant, Tailscale
 
 ---
 
