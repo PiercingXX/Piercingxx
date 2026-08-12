@@ -5,7 +5,7 @@
 
 ## About ⚙️
 
-Simple clean UI based on a reproducible dotfile ecosystem with customization that make sense and eliminate friction. 
+I prefer a simple clean UI based on a reproducible dotfile ecosystem with customization that make sense and eliminate friction. 
 
 - I had to build a few things to make that happen:
 	- A series of reproducible Linux menu‑driven installers that turn “fresh ISO” into “daily driver”.
