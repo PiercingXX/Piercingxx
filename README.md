@@ -133,14 +133,8 @@ The 1998 tank‑RTS/FPS hybrid that refuses to die...and I intend to keep it tha
 - Applied entropy: build systems that stay useful as the world changes
 - Elegant complexity: hide the sharp edges, keep the power
 - Repeatable results: a fresh install should feel like home in minutes
-- Local first: if it can run on my hardware, it will
+- Local first: if it can run on my hardware, it will...if it cant, buy more hardware
 - Defaults with a spine: opinions included at no extra charge
-
----
-
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Piercingxx&layout=compact&theme=aura&hide_border=true" height="150"/>
-</div>
 
 ---
 
