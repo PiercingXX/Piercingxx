@@ -102,7 +102,7 @@ The 1998 tank‑RTS/FPS hybrid that refuses to die...and I intend to keep it tha
 ## Odds & ends 🗃️
 
 - **piercingxx-branding** (private) — the brand system behind all of the above: color, type, logomark, and voice.
-- **hha-platform** (private) — a full business web platform: booking, chat, docs, and forms. Next.js + Prisma.
+- **xx-platform** (private) — a full business web platform: booking, chat, docs, and forms. Next.js + Prisma.
 - **book-list** (private) — my ongoing attempt to separate the worthwhile from the well‑marketed nonsense.
 
 ---
