@@ -32,7 +32,6 @@ So while we wait, my daily is a Pixel 9 Pro running GrapheneOS, and I'm replacin
 - **XX-Vitals** (private) — a cleanroom Google Fit replacement: Health Connect on the phone, Postgres on my own NAS, no cloud anywhere. In progress; private until it can walk.
 - **TxxT** (private) — too early to talk about.
 - **[piercing-keyboard-layout](https://github.com/Piercingxx/piercing-keyboard-layout)** — my own layout that no one else will ever use. One layout, every platform: Linux (xkb), Windows, Android/GrapheneOS, and QMK/Vial ortho boards.
-- **furi-phone-colemak-keyboard** (private) — Colemak OSK for Phosh: Squeekboard layouts tuned for Furi phone screens. Waiting on its phone to come back from the dead.
 
 And where it's all headed:
 
@@ -59,7 +58,7 @@ Which brings us to...
 
 ### Device enabling
 Drivers and scripts for hardware that isn’t in the Linux kernel:
-- Microsoft Surface kernel support across the installers
+- Surface kernel support across the installers
 - NuVision 8" tablet Wi‑Fi/Bluetooth/Audio fixes — obscure old tech that could be perfect
 - KooTigers touchscreen/driver utilities — neat little toy that needed some help
 
@@ -76,27 +75,27 @@ Drivers and scripts for hardware that isn’t in the Linux kernel:
 		- Optional Discord presence (text *and* voice)
 	- The brain is served locally by whatever model your hardware can manage
 	- Designed to be subscription‑free. Only runs on local hardware.
-- **Nagatha** (private) — Skippy's independent auditor and cleanroom counterpart in a two‑agent estate: Skippy builds, Nagatha audits. A terminal agent framework for self‑hosted LLMs behind any OpenAI‑compatible API.
+- **Nagatha** (private) — Skippy add‑on: Skippy's independent auditor and cleanroom counterpart in a two‑agent estate: Skippy builds, Nagatha audits. A terminal agent framework for self‑hosted LLMs behind any OpenAI‑compatible API.
 - **Roscoe** (private) — Skippy add‑on: face‑recognition presence and greetings for home and business sites, served over the tailnet.
-- **skpp‑radio** (private) — a local radio station that streams to multiple locations inside your Tailscale network. Skippy writes and voices the ads (if you want them), controls the Home Assistant speakers, and airs spots on a schedule. Because he can.
-- **skippy-tel** (private) — Skippy's communications layer: event streams with a hard business/personal wall, offline‑first, and agents post through the same door people do.
-- **elder-ai** (private) — drop a person's letters and answers in, get a local model that talks like them plus a RAG index over the real correspondence. Runs on this box. No cloud.
-- **jal** (private) — offline inventory sourcing engine. House catalog, USD quotes, a staff chatbot that reads it; no checkout, everything stays on the machine.
+- **skpp‑radio** (private) — Skippy add‑on: a local radio station that streams to multiple locations inside your Tailscale network. Skippy writes and voices the ads (if you want them), controls the Home Assistant speakers, and airs spots on a schedule. Because he can.
+- **skippy-tel** (private) — Skippy add‑on: Skippy's communications layer: event streams with a hard business/personal wall, offline‑first, and agents post through the same door people do.
+- **elder-ai** (private) — Skippy add‑on: drop cleaned business email's in, dash in some FAQs and website links, get a local model that talks like an employee plus a RAG index over the real correspondence. Runs on this box. No cloud.
+- **jal** (private) — Skippy add‑on: offline inventory sourcing engine. House catalog, USD quotes, a staff chatbot for skippy-tel; everything stays on the machine.
 - **[wyoming-sentence-tts](https://github.com/Piercingxx/wyoming-sentence-tts)** — fork of the Wyoming‑protocol TTS bridge that streams audio per sentence, so your voice assistant starts talking after the first sentence instead of the last one.
-- **XX‑Stack** (private) — self‑hosted‑first AI orchestration: agent contracts, routing policy, an MCP server, and a local inference control plane over Tailscale. Cloud is strictly opt‑in.
+- **XX‑Stack** (private) — self‑hosted AI orchestration with optional cloud tie-in for Opencode and Hermes Agent: agent contracts, routing policy, an MCP server, and a local inference control plane over Tailscale. This is what Skippy started as. This has grown alongside Skippy as a benchmark tool.
 
 ---
 
 ## Battlezone 98 Redux 🎮
 
-The 1998 tank‑RTS hybrid refuses to die, and I intend to keep it that way:
+The 1998 tank‑RTS/FPS hybrid that refuses to die...and I intend to keep it that way:
 
-- **[battlezone98-map-generator](https://github.com/Piercingxx/battlezone98-map-generator)** — AI map‑generation toolchain (`bzmap`) for multiplayer maps: generation pipeline, format writers, validators, and Workshop packaging.
 - **[battlezone-netcode-patch](https://github.com/Piercingxx/battlezone-netcode-patch)** — netcode patch for BZ98 Redux multiplayer.
-- **[BattleZone98-Godot-Map-Editor](https://github.com/Piercingxx/BattleZone98-Godot-Map-Editor)** — a Godot‑based map editor for the same.
+- **[battlezone98-map-generator](https://github.com/Piercingxx/battlezone98-map-generator)** — AI map‑generation toolchain (`bzmap`) for multiplayer maps: generation pipeline, format writers, validators, and Workshop packaging.
+- **[BattleZone98-Godot-Map-Editor](https://github.com/Piercingxx/BattleZone98-Godot-Map-Editor)** — a feature rich Godot‑based map editor for the same.
 - **[BZ1-GameWatcher](https://github.com/Piercingxx/BZ1-GameWatcher)** — fork of the multiplayer game watcher.
-- **skippy-plays-battlezone** (private) — Skippy plays BZ98 Redux as a real multiplayer opponent: own client, own player slot, own scoreboard line, acting only through the same input path a human uses.
-- **skippy-battlezone-map-generator** (private) — the lab where the map generator was built, by Skippy, from the specs. The public toolchain above is what graduated.
+- **skippy-battlezone-map-generator** (private) — this one is explicitly for Skippy with lots of testing and future plans in the works. The public toolchain above was extracted from this.
+- **skippy-plays-battlezone** (private) — Skippy plays BZ98 Redux as a real multiplayer opponent: own client, own player slot, own scoreboard line, acting only through the same input path a human uses. **Currently Shelved ** - Skippy needs more data.
 
 ---
 
