@@ -79,8 +79,8 @@ Drivers and scripts for hardware that isn’t in the Linux kernel:
 - **Roscoe** (private) — Skippy add‑on: face‑recognition presence and greetings for home and business sites, served over the tailnet.
 - **skpp‑radio** (private) — Skippy add‑on: a local radio station that streams to multiple locations inside your Tailscale network. Skippy writes and voices the ads (if you want them), controls the Home Assistant speakers, and airs spots on a schedule. Because he can.
 - **skippy-tel** (private) — Skippy add‑on: Skippy's communications layer: event streams with a hard business/personal wall, offline‑first, and agents post through the same door people do.
-- **elder-ai** (private) — Skippy add‑on: drop cleaned business email's in, dash in some FAQs and website links, get a local model that talks like an employee plus a RAG index over the real correspondence. Runs on this box. No cloud.
-- **jal** (private) — Skippy add‑on: offline inventory sourcing engine. House catalog, USD quotes, a staff chatbot for skippy-tel; everything stays on the machine.
+- **elder-ai** (private) — Skippy add‑on: This is a local AI model trainer. Runs on this box. No cloud.
+- **jal** (private) — Skippy add‑on: offline inventory sourcing engine. House catalog, USD quotes, a staff chatbot via skippy-tel; everything stays on the machine.
 - **[wyoming-sentence-tts](https://github.com/Piercingxx/wyoming-sentence-tts)** — fork of the Wyoming‑protocol TTS bridge that streams audio per sentence, so your voice assistant starts talking after the first sentence instead of the last one.
 - **XX‑Stack** (private) — self‑hosted AI orchestration with optional cloud tie-in for Opencode and Hermes Agent: agent contracts, routing policy, an MCP server, and a local inference control plane over Tailscale. This is what Skippy started as. This has grown alongside Skippy as a benchmark tool.
 
