@@ -30,7 +30,9 @@ So while we wait, my daily is a Pixel 9 Pro running GrapheneOS, and I'm replacin
 - **[Nope-Mode](https://github.com/Piercingxx/Nope-Mode)** — selected apps go silent and un‑openable, on a schedule or on demand. Focus Mode for GrapheneOS, where Digital Wellbeing doesn't exist. Runs as device owner; no accounts, no network, no analytics.
 - **[HeliBoard fork](https://github.com/Piercingxx/HeliBoard)** — glide typing without the proprietary Google blob. I'm building an open‑source gesture decoder with an offline replay harness to tune it against real swipe recordings.
 - **XX-Vitals** (private) — a cleanroom Google Fit replacement: Health Connect on the phone, Postgres on my own NAS, no cloud anywhere. In progress; private until it can walk.
-- **TxxT** (private) — too early to talk about.
+- **TxxT** (private) — SMS in the same style as my launcher with a few extras to cut out the noise.
+- **XX-Phone** (private) — Pretty much the same as Txxt but for calls.
+- **XX-Calendar** (private) — Calendar app that runs on my private federated network.
 - **[piercing-keyboard-layout](https://github.com/Piercingxx/piercing-keyboard-layout)** — my own layout that no one else will ever use. One layout, every platform: Linux (xkb), Windows, Android/GrapheneOS, and QMK/Vial ortho boards.
 
 And where it's all headed:
