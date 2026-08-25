@@ -32,6 +32,7 @@ So while we wait, my daily is a Pixel 9 Pro running GrapheneOS, and I've replace
 - **[Nope-Mode](https://github.com/Piercingxx/Nope-Mode)** — selected apps go silent and un‑openable, on a schedule or on demand. Focus Mode for GrapheneOS, where Digital Wellbeing doesn't exist. Runs as device owner; no accounts, no network, no analytics.
 - **[XX-Calculator](https://github.com/Piercingxx/xx-calculator)** — Its a Calculator, that matches my theme. BigDecimal engine, no Android dependencies in the math.
 - **[XX-Calendar](https://github.com/Piercingxx/xx-calendar)** — syncs with Google through DAVx⁵, because sometimes we still need to use Google, but not on my phone, refuses to do the other ninety things Google Calendar does at you.
+- **XX-Email** (private) — Email without the proprietary Google blob.
 - **[XX-Note](https://github.com/Piercingxx/xx-note)** — Keep's front end over a folder of Markdown files on my own NAS. Every note is one plain file with frontmatter. Delete the app and lose nothing.
 - **[XX-Clock](https://github.com/Piercingxx/xx-clock)** — clock, alarms, timers, offline. Per‑alarm ringtones.
 - **XX-Keyboard** (private) — Colemak and Piercing keyboard layout glide typing without the proprietary Google blob.
