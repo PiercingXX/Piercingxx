@@ -37,7 +37,6 @@ So while we wait, my daily is a Pixel 9 Pro running GrapheneOS, and I'm replacin
 - **XX-Clock** (private) — clock, alarms, timers, offline. Per‑alarm ringtones, and the one app here that isn't always black: Paper by day, ink by night.
 - **XX-Drive** (private) — self‑hosted file sync: one static Go binary on the server, plus a web UI, a Linux CLI client, and an Android app. Files stay as plain files on disk, metadata in SQLite.
 - **[XX-Calculator](https://github.com/Piercingxx/xx-calculator)** — cleanroom Pixel Calculator. BigDecimal engine with no Android dependencies in the maths, dark grey keys, and the only white thing on screen is the equals sign.
-- **[piercing-keyboard-layout](https://github.com/Piercingxx/piercing-keyboard-layout)** — my own layout that no one else will ever use. One layout, every platform: Linux (xkb), Windows, Android/GrapheneOS, and QMK/Vial ortho boards.
 
 They share one contract: the launcher broadcasts the active theme and every app repaints itself. Eight presets, one broadcast, nothing to keep in step by hand.
 
@@ -111,6 +110,7 @@ The 1998 tank‑RTS/FPS hybrid that refuses to die...and I intend to keep it tha
 
 - **piercingxx-branding** (private) — the brand system behind all of the above: color, type, logomark, and voice.
 - **xx-platform** (private) — a full business web platform: booking, chat, docs, and forms. Next.js + Prisma.
+- **[piercing-keyboard-layout](https://github.com/Piercingxx/piercing-keyboard-layout)** — my own layout that no one else will ever use. One layout, every platform: Linux (xkb), Windows, Android/GrapheneOS, and QMK/Vial ortho boards.
 - **book-list** (private) — my ongoing attempt to separate the worthwhile from the well‑marketed nonsense.
 
 ---
