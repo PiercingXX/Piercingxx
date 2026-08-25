@@ -31,11 +31,11 @@ So while we wait, my daily is a Pixel 9 Pro running GrapheneOS, and I'm replacin
 - **[HeliBoard fork](https://github.com/Piercingxx/HeliBoard)** — glide typing without the proprietary Google blob. I'm building an open‑source gesture decoder with an offline replay harness to tune it against real swipe recordings.
 - **[XX-Vitals](https://github.com/Piercingxx/xx-vitals)** — a cleanroom Google Fit replacement: entered on the phone, Postgres on my own NAS, no cloud anywhere. Imperial by default, because that's where I live.
 - **[TxxT](https://github.com/Piercingxx/TxxT)** — SMS in the same style as my launcher, with a few extras to cut out the noise. No INTERNET permission; the manifest can't lie about that.
-- **XX-Phone** (private) — pretty much the same as TxxT but for calls, with a ring policy attached: spam never rings, starred contacts always ring, everyone else rings only inside their window.
+- **[XX-Dialer](https://github.com/Piercingxx/xx-dialer)** — pretty much the same as TxxT but for calls, with a ring policy attached: spam never rings, starred contacts always ring, everyone else rings only inside their window.
 - **[XX-Calendar](https://github.com/Piercingxx/xx-calendar)** — syncs with Google through DAVx⁵, because that's where the invitations arrive, then refuses to do the other ninety things Google Calendar does at you.
 - **[XX-Note](https://github.com/Piercingxx/xx-note)** — Keep's front end over a folder of Markdown files on my own NAS. Every note is one plain file with frontmatter. Delete the app and lose nothing.
-- **XX-Clock** (private) — clock, alarms, timers, offline. Per‑alarm ringtones, and the one app here that isn't always black: Paper by day, ink by night.
-- **XX-Drive** (private) — self‑hosted file sync: one static Go binary on the server, plus a web UI, a Linux CLI client, and an Android app. Files stay as plain files on disk, metadata in SQLite.
+- **[XX-Clock](https://github.com/Piercingxx/xx-clock)** — clock, alarms, timers, offline. Per‑alarm ringtones, and the one app here that isn't always black: Paper by day, ink by night.
+- **[XX-Drive](https://github.com/Piercingxx/xx-drive)** — self‑hosted file sync: one static Go binary on the server, plus a web UI, a Linux CLI client, and an Android app. Files stay as plain files on disk, metadata in SQLite.
 - **[XX-Calculator](https://github.com/Piercingxx/xx-calculator)** — cleanroom Pixel Calculator. BigDecimal engine with no Android dependencies in the maths, dark grey keys, and the only white thing on screen is the equals sign.
 
 They share one contract: the launcher broadcasts the active theme and every app repaints itself. Eight presets, one broadcast, nothing to keep in step by hand.
