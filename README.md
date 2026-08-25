@@ -8,7 +8,7 @@
 I prefer a simple clean UI based on a reproducible dotfile ecosystem, with customizations that make sense and eliminate friction.
 
 - I had to build a few things to make that happen:
-	- A phone suite for GrapheneOS — launcher, keyboard, app blocker, fitness tracker. My daily driver, built by me.
+	- A ten‑app phone suite for GrapheneOS — launcher, dialer, SMS, notes, calendar, clock, calculator, file sync, app blocker, fitness tracker — plus a keyboard fork. My daily driver, built by me.
 	- A Wayland shell for Linux phones, so the whole suite has somewhere to go next.
 	- A series of reproducible Linux menu‑driven installers that turn “fresh ISO” into “daily driver”.
 	- A local‑first AI assistant that runs entirely on my own hardware.
@@ -29,11 +29,17 @@ So while we wait, my daily is a Pixel 9 Pro running GrapheneOS, and I'm replacin
 - **[XX-Launcher](https://github.com/Piercingxx/XX-Launcher)** — text‑first Android launcher (Kotlin). No icons, no wallpaper clutter. Search‑first drawer, 8 home slots, inline folders, gestures, widgets, theme presets, JSON backup. The design ancestor of everything below.
 - **[Nope-Mode](https://github.com/Piercingxx/Nope-Mode)** — selected apps go silent and un‑openable, on a schedule or on demand. Focus Mode for GrapheneOS, where Digital Wellbeing doesn't exist. Runs as device owner; no accounts, no network, no analytics.
 - **[HeliBoard fork](https://github.com/Piercingxx/HeliBoard)** — glide typing without the proprietary Google blob. I'm building an open‑source gesture decoder with an offline replay harness to tune it against real swipe recordings.
-- **XX-Vitals** (private) — a cleanroom Google Fit replacement: Health Connect on the phone, Postgres on my own NAS, no cloud anywhere. In progress; private until it can walk.
-- **TxxT** (private) — SMS in the same style as my launcher with a few extras to cut out the noise.
-- **XX-Phone** (private) — Pretty much the same as Txxt but for calls.
-- **XX-Calendar** (private) — Calendar app that runs on my private federated network.
+- **[XX-Vitals](https://github.com/Piercingxx/xx-vitals)** — a cleanroom Google Fit replacement: entered on the phone, Postgres on my own NAS, no cloud anywhere. Imperial by default, because that's where I live.
+- **[TxxT](https://github.com/Piercingxx/TxxT)** — SMS in the same style as my launcher, with a few extras to cut out the noise. No INTERNET permission; the manifest can't lie about that.
+- **XX-Phone** (private) — pretty much the same as TxxT but for calls, with a ring policy attached: spam never rings, starred contacts always ring, everyone else rings only inside their window.
+- **[XX-Calendar](https://github.com/Piercingxx/xx-calendar)** — syncs with Google through DAVx⁵, because that's where the invitations arrive, then refuses to do the other ninety things Google Calendar does at you.
+- **[XX-Note](https://github.com/Piercingxx/xx-note)** — Keep's front end over a folder of Markdown files on my own NAS. Every note is one plain file with frontmatter. Delete the app and lose nothing.
+- **XX-Clock** (private) — clock, alarms, timers, offline. Per‑alarm ringtones, and the one app here that isn't always black: Paper by day, ink by night.
+- **XX-Drive** (private) — self‑hosted file sync: one static Go binary on the server, plus a web UI, a Linux CLI client, and an Android app. Files stay as plain files on disk, metadata in SQLite.
+- **[XX-Calculator](https://github.com/Piercingxx/xx-calculator)** — cleanroom Pixel Calculator. BigDecimal engine with no Android dependencies in the maths, dark grey keys, and the only white thing on screen is the equals sign.
 - **[piercing-keyboard-layout](https://github.com/Piercingxx/piercing-keyboard-layout)** — my own layout that no one else will ever use. One layout, every platform: Linux (xkb), Windows, Android/GrapheneOS, and QMK/Vial ortho boards.
+
+They share one contract: the launcher broadcasts the active theme and every app repaints itself. Eight presets, one broadcast, nothing to keep in step by hand.
 
 And where it's all headed:
 
