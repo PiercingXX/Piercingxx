@@ -24,25 +24,30 @@ Yes, it’s opinionated, but that is why it’s good.
 
 The mobile market is overrun by two equally non‑valid options... then there are Linux phones, also not valid but for different reasons: way underdeveloped, many issues, and not enough financial backing to make it a viable market — *yet*.
 
-So while we wait, my daily is a Pixel 9 Pro running GrapheneOS, and I'm replacing the stock experience one app at a time:
+So while we wait, my daily is a Pixel 9 Pro running GrapheneOS, and I've replaced the stock experience one app at a time:
 
 - **[XX-Launcher](https://github.com/Piercingxx/XX-Launcher)** — text‑first Android launcher (Kotlin). No icons, no wallpaper clutter. Search‑first drawer, 8 home slots, inline folders, gestures, widgets, theme presets, JSON backup. The design ancestor of everything below.
+- **[TxxT](https://github.com/Piercingxx/TxxT)** — SMS in the same style as the launcher, with a few extras to cut out the noise.
+- **[XX-Dialer](https://github.com/Piercingxx/xx-dialer)** — pretty much the same as TxxT but for calls, with a ring policy attached: spam never rings, starred contacts always ring, everyone else rings only inside their allowed time-window.
 - **[Nope-Mode](https://github.com/Piercingxx/Nope-Mode)** — selected apps go silent and un‑openable, on a schedule or on demand. Focus Mode for GrapheneOS, where Digital Wellbeing doesn't exist. Runs as device owner; no accounts, no network, no analytics.
-- **XX-Keyboard** (private) — Colemak and Piercing keyboard layout glide typing without the proprietary Google blob.
-- **[XX-Vitals](https://github.com/Piercingxx/xx-vitals)** — a cleanroom Google Fit replacement: entered on the phone, Postgres on my own NAS, no cloud anywhere. Imperial by default, because that's where I live.
-- **[TxxT](https://github.com/Piercingxx/TxxT)** — SMS in the same style as my launcher, with a few extras to cut out the noise. No INTERNET permission; the manifest can't lie about that.
-- **[XX-Dialer](https://github.com/Piercingxx/xx-dialer)** — pretty much the same as TxxT but for calls, with a ring policy attached: spam never rings, starred contacts always ring, everyone else rings only inside their window.
-- **[XX-Calendar](https://github.com/Piercingxx/xx-calendar)** — syncs with Google through DAVx⁵, because that's where the invitations arrive, then refuses to do the other ninety things Google Calendar does at you.
+- **[XX-Calculator](https://github.com/Piercingxx/xx-calculator)** — Its a Calculator, that matches my theme. BigDecimal engine, no Android dependencies in the math.
+- **[XX-Calendar](https://github.com/Piercingxx/xx-calendar)** — syncs with Google through DAVx⁵, because sometimes we still need to use Google, but not on my phone, refuses to do the other ninety things Google Calendar does at you.
 - **[XX-Note](https://github.com/Piercingxx/xx-note)** — Keep's front end over a folder of Markdown files on my own NAS. Every note is one plain file with frontmatter. Delete the app and lose nothing.
-- **[XX-Clock](https://github.com/Piercingxx/xx-clock)** — clock, alarms, timers, offline. Per‑alarm ringtones, and the one app here that isn't always black: Paper by day, ink by night.
-- **[XX-Drive](https://github.com/Piercingxx/xx-drive)** — self‑hosted file sync: one static Go binary on the server, plus a web UI, a Linux CLI client, and an Android app. Files stay as plain files on disk, metadata in SQLite.
-- **[XX-Calculator](https://github.com/Piercingxx/xx-calculator)** — cleanroom Pixel Calculator. BigDecimal engine with no Android dependencies in the maths, dark grey keys, and the only white thing on screen is the equals sign.
+- **[XX-Clock](https://github.com/Piercingxx/xx-clock)** — clock, alarms, timers, offline. Per‑alarm ringtones.
+- **XX-Keyboard** (private) — Colemak and Piercing keyboard layout glide typing without the proprietary Google blob.
+- **[XX-Vitals](https://github.com/Piercingxx/xx-vitals)** — a cleanroom Google Fit replacement: entered on the phone, Postgres on my own NAS, no cloud anywhere.
 
-They share one contract: the launcher broadcasts the active theme and every app repaints itself. Eight presets, one broadcast, nothing to keep in step by hand.
+The app that works with Android and Linux right now:
+- **[XX-Drive](https://github.com/Piercingxx/xx-drive)** — self‑hosted file sync: one static Go binary on the server, plus a web UI, a Linux CLI client, and an Android app. Files stay as plain files on disk, metadata in SQLite.
+
+They work individually or with the xx-launcher sharing a single active color theme. These apps will probably work on other versions of android, but its not tested.
+Any app that reaches out to a server, make sure you have Tailscale installed (or Headscale) and point the app at your server. Done.
 
 And where it's all headed:
 
 - **[XX-WM](https://github.com/Piercingxx/XX-WM)** — a minimalist Wayland shell for Linux phones and tablets. Text‑first, gesture‑driven, AMOLED black, Space Mono. No icon grids, anywhere. Calls, SMS, lock screen, notification shade — all first‑class surfaces. The Android suite above is the rehearsal; this is the venue. Working toward this being my daily driver.
+
+## **All the Android apps ARE my daily drivers. XX-WM is under construction.**
 
 Which brings us to...
 
@@ -65,9 +70,9 @@ Which brings us to...
 
 ### Device enabling
 Drivers and scripts for hardware that isn’t in the Linux kernel:
-- Surface kernel support across the installers
-- NuVision 8" tablet Wi‑Fi/Bluetooth/Audio fixes — obscure old tech that could be perfect
-- KooTigers touchscreen/driver utilities — neat little toy that needed some help
+- Surface kernel support across the installers.
+- NuVision 8" tablet Wi‑Fi/Bluetooth/Audio fixes — obscure old tech that could be perfect if it was made with modern hardware.
+- KooTigers touchscreen/driver utilities — neat little toy that needed some help.
 
 ---
 
