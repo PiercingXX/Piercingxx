@@ -8,7 +8,7 @@
 I prefer a simple clean UI based on a reproducible dotfile ecosystem, with customizations that make sense and eliminate friction.
 
 - I had to build a few things to make that happen:
-	- A ten‑app phone suite for GrapheneOS — launcher, dialer, SMS, notes, calendar, clock, calculator, file sync, app blocker, fitness tracker — plus a keyboard fork. My daily driver, built by me.
+	- A twelve‑app phone suite for GrapheneOS — launcher, dialer, SMS, notes, calendar, clock, calculator, email, weather, file sync, app blocker, fitness tracker — plus a keyboard. My daily driver, built by me.
 	- A Wayland shell for Linux phones, so the whole suite has somewhere to go next.
 	- A series of reproducible Linux menu‑driven installers that turn “fresh ISO” into “daily driver”.
 	- A local‑first AI assistant that runs entirely on my own hardware.
@@ -32,9 +32,10 @@ So while we wait, my daily is a Pixel 9 Pro running GrapheneOS, and I've replace
 - **[Nope-Mode](https://github.com/Piercingxx/Nope-Mode)** — selected apps go silent and un‑openable, on a schedule or on demand. Focus Mode for GrapheneOS, where Digital Wellbeing doesn't exist. Runs as device owner; no accounts, no network, no analytics.
 - **[XX-Calculator](https://github.com/Piercingxx/xx-calculator)** — Its a Calculator, that matches my theme. BigDecimal engine, no Android dependencies in the math.
 - **[XX-Calendar](https://github.com/Piercingxx/xx-calendar)** — syncs with Google through DAVx⁵, because sometimes we still need to use Google, but not on my phone, refuses to do the other ninety things Google Calendar does at you.
-- **XX-Email** (private) — Email without the proprietary Google blob.
+- **[XX-Email](https://github.com/Piercingxx/xx-email)** — Gmail without the proprietary Google blob. Tabs, snooze, undo-send, operator search. No Play Services, no analytics.
 - **[XX-Note](https://github.com/Piercingxx/xx-note)** — Keep's front end over a folder of Markdown files on my own NAS. Every note is one plain file with frontmatter. Delete the app and lose nothing.
 - **[XX-Clock](https://github.com/Piercingxx/xx-clock)** — clock, alarms, timers, offline. Per‑alarm ringtones.
+- **[XX-Weather](https://github.com/Piercingxx/xx-weather)** — ZIP in, forecast out. NWS first, Open-Meteo if NOAA is down. No location permission, no Play Services.
 - **XX-Keyboard** (private) — Colemak and Piercing keyboard layout glide typing without the proprietary Google blob.
 - **[XX-Vitals](https://github.com/Piercingxx/xx-vitals)** — a cleanroom Google Fit replacement: entered on the phone, Postgres on my own NAS, no cloud anywhere.
 
