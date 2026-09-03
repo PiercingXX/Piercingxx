@@ -98,8 +98,8 @@ Drivers and scripts for hardware that isn’t in the Linux kernel:
 - **Margaret** (private) — Skippy add‑on: front‑desk business agent. Answers from a trained facts store, drafts email (never sends), helps with the website. Local brain only — loopback or it refuses to start.
 - **Roscoe** (private) — Skippy add‑on: face‑recognition presence and greetings for home and business sites, served over the tailnet.
 - **skpp‑radio** (private) — Skippy add‑on: a local radio station that streams to multiple locations inside your Tailscale network. Skippy writes and voices the ads (if you want them), controls the Home Assistant speakers, and airs spots on a schedule. Because he can.
-- **xx-chat** (private) — the messaging product that used to live under skippy-tel: cleanroom staff chat, Mattermost-wire compatible, event-log spine, membership walls, agents-as-staff. Offline-first; agents post through the same door people do.
-- **skippy-tel-network** (private) — the transport half of that split: Headscale mesh, cross-node sync daemon, Cloudflare LB ingress, split-horizon DNS, location gateway. Consumes xx-chat as a library. Product and pipes do not share a repo.
+- **xx-chat** (private) — Mattermost-wire compatible staff/group chat with AI agent tie in, event-log spine, membership walls, agents-as-staff. Offline-first; agents post through the same door people do.
+- **skippy-tel-network** (private) — Headscale mesh, cross-node sync daemon, Cloudflare LB ingress, split-horizon DNS, location gateway. The federated network Skippy breaths on. Everything else rides on this.
 - **elder-ai** (private) — Skippy add‑on: This is a local AI model trainer. Runs on this box. No cloud.
 - **jal** (private) — Skippy add‑on: offline inventory sourcing engine. House catalog, USD quotes, a staff chatbot via xx-chat; everything stays on the machine.
 - **[wyoming-sentence-tts](https://github.com/Piercingxx/wyoming-sentence-tts)** — fork of the Wyoming‑protocol TTS bridge that streams audio per sentence, so your voice assistant starts talking after the first sentence instead of the last one.
