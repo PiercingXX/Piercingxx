@@ -33,12 +33,13 @@ So while we wait, my daily is a Pixel 9 Pro running GrapheneOS, and I've replace
 - **[Nope-Mode](https://github.com/Piercingxx/Nope-Mode)** — selected apps go silent and un‑openable, on a schedule or on demand. Focus Mode for GrapheneOS, where Digital Wellbeing doesn't exist. Runs as device owner; no accounts, no network, no analytics.
 - **[XX-Calculator](https://github.com/Piercingxx/xx-calculator)** — Its a Calculator, that matches my theme. BigDecimal engine, no Android dependencies in the math.
 - **[XX-Calendar](https://github.com/Piercingxx/xx-calendar)** — syncs with Google through DAVx⁵, because sometimes we still need to use Google, but not on my phone, refuses to do the other ninety things Google Calendar does at you.
+- **xx-calendar-server** (private) — CalDAV backend for the above. Unmodified Radicale plus estate auth/rights, strict per-user isolation. DAVx⁵ talks to my NAS; the app never learns the difference.
 - **[XX-Email](https://github.com/Piercingxx/xx-email)** — Gmail without the proprietary Google blob. Tabs, snooze, undo-send, operator search. No Play Services, no analytics.
 - **[XX-Note](https://github.com/Piercingxx/xx-note)** — Keep's front end over a folder of Markdown files on my own NAS. Every note is one plain file with frontmatter. Delete the app and lose nothing.
 - **[XX-Clock](https://github.com/Piercingxx/xx-clock)** — clock, alarms, timers, offline. Per‑alarm ringtones.
 - **[XX-Weather](https://github.com/Piercingxx/xx-weather)** — ZIP in, forecast out. NWS first, Open-Meteo if NOAA is down. No location permission, no Play Services.
 - **XX-Files** (lol & under construction) — File manager that actually respects the hierarchy.
-- **XX-Keyboard** (under construction) — Colemak and Piercing keyboard layout glide typing without the proprietary Google blob.
+- **XX-Keyboard** (private) — swipe-first English keyboard with Colemak and Piercing layouts. Glide typing, no INTERNET permission, no proprietary Google blob.
 - **[XX-Vitals](https://github.com/Piercingxx/xx-vitals)** — a cleanroom Google Fit replacement: entered on the phone, Postgres on my own NAS, no cloud anywhere.
 
 The app that works with Android and Linux right now:
@@ -89,16 +90,21 @@ Drivers and scripts for hardware that isn’t in the Linux kernel:
 		- Per‑person / per‑location recognition and memory
 		- Mobile app remote over Tailscale (text *and* voice)
 		- Optional Discord presence (text *and* voice)
+	- Skippy orchestrates. Bilby builds. Nagatha audits. They do not share a session.
 	- The brain is served locally by whatever model your hardware can manage
 	- Designed to be subscription‑free. Only runs on local hardware.
+- **Bilby** (private) — Skippy add‑on: Skippy queues the work, Bilby builds, Nagatha grades when asked. No Home Assistant, no PWA, no add‑on host. Git author is Skippy, never Bilby.
 - **Nagatha** (private) — Skippy add‑on: Skippy's independent auditor and cleanroom counterpart in a two‑agent estate: Skippy builds, Nagatha audits. A terminal agent framework for self‑hosted LLMs behind any OpenAI‑compatible API.
+- **Margaret** (private) — Skippy add‑on: front‑desk business agent. Answers from a trained facts store, drafts email (never sends), helps with the website. Local brain only — loopback or it refuses to start.
 - **Roscoe** (private) — Skippy add‑on: face‑recognition presence and greetings for home and business sites, served over the tailnet.
 - **skpp‑radio** (private) — Skippy add‑on: a local radio station that streams to multiple locations inside your Tailscale network. Skippy writes and voices the ads (if you want them), controls the Home Assistant speakers, and airs spots on a schedule. Because he can.
-- **skippy-tel** (private) — Skippy add‑on: Skippy's communications layer: event streams with a hard business/personal wall, offline‑first, and agents post through the same door people do.
+- **xx-chat** (private) — the messaging product that used to live under skippy-tel: cleanroom staff chat, Mattermost-wire compatible, event-log spine, membership walls, agents-as-staff. Offline-first; agents post through the same door people do.
+- **skippy-tel-network** (private) — the transport half of that split: Headscale mesh, cross-node sync daemon, Cloudflare LB ingress, split-horizon DNS, location gateway. Consumes xx-chat as a library. Product and pipes do not share a repo.
 - **elder-ai** (private) — Skippy add‑on: This is a local AI model trainer. Runs on this box. No cloud.
-- **jal** (private) — Skippy add‑on: offline inventory sourcing engine. House catalog, USD quotes, a staff chatbot via skippy-tel; everything stays on the machine.
+- **jal** (private) — Skippy add‑on: offline inventory sourcing engine. House catalog, USD quotes, a staff chatbot via xx-chat; everything stays on the machine.
 - **[wyoming-sentence-tts](https://github.com/Piercingxx/wyoming-sentence-tts)** — fork of the Wyoming‑protocol TTS bridge that streams audio per sentence, so your voice assistant starts talking after the first sentence instead of the last one.
-- **XX‑Stack** (private) — self‑hosted AI orchestration with optional cloud tie-in for Opencode and Hermes Agent: agent contracts, routing policy, an MCP server, and a local inference control plane over Tailscale. This is what Skippy started as. This has grown alongside Skippy as a benchmark tool.
+- **[XX-Stack](https://github.com/Piercingxx/xx-stack)** — let your local AI use every computer you own. Agent contracts, routing policy, an MCP server, and a local inference control plane over Tailscale. Cloud APIs are off unless you switch them on. This is what Skippy started as; it grew alongside as a benchmark tool.
+- **[free-opencode-hermes](https://github.com/Piercingxx/free-opencode-hermes)** — a local proxy so OpenCode (and Hermes-Agent) can run from the terminal against providers you already have keys for, or models on machines you own. Keys stay in the proxy, not in the agent.
 
 ---
 
