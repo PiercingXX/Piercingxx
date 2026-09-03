@@ -88,20 +88,20 @@ Drivers and scripts for hardware that isn’t in the Linux kernel:
 		- Terminal coding agent
 		- Personal assistant with Home Assistant tie‑in
 		- Per‑person / per‑location recognition and memory
-		- Mobile app remote over Tailscale (text *and* voice)
+		- Mobile app remote over the Skippy-Tel-Network (text *and* voice)
 		- Optional Discord presence (text *and* voice)
-	- Skippy orchestrates. Bilby builds. Nagatha audits. They do not share a session.
-	- The brain is served locally by whatever model your hardware can manage
-	- Designed to be subscription‑free. Only runs on local hardware.
-- **Bilby** (private) — Skippy add‑on: Skippy queues the work, Bilby builds, Nagatha grades when asked. No Home Assistant, no PWA, no add‑on host. Git author is Skippy, never Bilby.
-- **Nagatha** (private) — Skippy add‑on: Skippy's independent auditor and cleanroom counterpart in a two‑agent estate: Skippy builds, Nagatha audits. A terminal agent framework for self‑hosted LLMs behind any OpenAI‑compatible API.
-- **Margaret** (private) — Skippy add‑on: front‑desk business agent. Answers from a trained facts store, drafts email (never sends), helps with the website. Local brain only — loopback or it refuses to start.
-- **Roscoe** (private) — Skippy add‑on: face‑recognition presence and greetings for home and business sites, served over the tailnet.
-- **skpp‑radio** (private) — Skippy add‑on: a local radio station that streams to multiple locations inside your Tailscale network. Skippy writes and voices the ads (if you want them), controls the Home Assistant speakers, and airs spots on a schedule. Because he can.
-- **xx-chat** (private) — Mattermost-wire compatible staff/group chat with AI agent tie in, event-log spine, membership walls, agents-as-staff. Offline-first; agents post through the same door people do.
+	- Skippy orchestrates. Bilby builds. Nagatha audits and cleanrooms. They do not share a session.
+	- The brain is served locally by whatever model your hardware can manage.
+	- Designed to be subscription‑free, secure, private, and only runs on local hardware.
+- **Bilby** (private) — Skippy add‑on: Skippy queues the work, Bilby builds.
+- **Nagatha** (private) — Skippy add‑on: Skippy's independent auditor and cleanroom counterpart.
 - **skippy-tel-network** (private) — Headscale mesh, cross-node sync daemon, Cloudflare LB ingress, split-horizon DNS, location gateway. The federated network Skippy breaths on. Everything else rides on this.
+- **xx-chat** (private) — Mattermost-wire compatible staff/group chat with AI agent tie in, event-log spine, membership walls, agents-as-staff. Offline-first; agents post through the same door people do.
+- **Roscoe** (private) — Skippy add‑on: face‑recognition presence and greetings for home and business sites, served over the Skippy-Tel-Network.
+- **skpp‑radio** (private) — Skippy add‑on: a local radio station that streams to multiple locations inside the Skippy-Tel-Network. Skippy writes and voices the ads (if you want them), controls the Home Assistant speakers, and airs spots on a schedule. Because he can.
 - **elder-ai** (private) — Skippy add‑on: This is a local AI model trainer. Runs on this box. No cloud.
-- **jal** (private) — Skippy add‑on: offline inventory sourcing engine. House catalog, USD quotes, a staff chatbot via xx-chat; everything stays on the machine.
+- **Margaret** (private) — Skippy add‑on: front‑desk business agent. Answers from a trained facts store, drafts email (never sends), interactive client chat on the website. Local brain only.
+- **Jal** (private) — Skippy add‑on: offline inventory sourcing engine. House catalog, USD quotes, a staff chatbot via xx-chat; everything stays on the machine.
 - **[wyoming-sentence-tts](https://github.com/Piercingxx/wyoming-sentence-tts)** — fork of the Wyoming‑protocol TTS bridge that streams audio per sentence, so your voice assistant starts talking after the first sentence instead of the last one.
 - **[XX-Stack](https://github.com/Piercingxx/xx-stack)** — let your local AI use every computer you own. Agent contracts, routing policy, an MCP server, and a local inference control plane over Tailscale. Cloud APIs are off unless you switch them on. This is what Skippy started as; it grew alongside as a benchmark tool.
 - **[free-opencode-hermes](https://github.com/Piercingxx/free-opencode-hermes)** — a local proxy so OpenCode (and Hermes-Agent) can run from the terminal against providers you already have keys for, or models on machines you own. Keys stay in the proxy, not in the agent.
