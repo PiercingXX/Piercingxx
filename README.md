@@ -30,7 +30,7 @@ So while we wait, my daily is a Pixel 9 Pro running GrapheneOS, and I've replace
 - **[XX-Launcher](https://github.com/Piercingxx/XX-Launcher)** — text‑first Android launcher (Kotlin). No icons, no wallpaper clutter. Search‑first drawer, 8 home slots, inline folders, gestures, widgets, theme presets, JSON backup. The design ancestor of everything below.
 - **[TxxT](https://github.com/Piercingxx/TxxT)** — SMS in the same style as the launcher, with a few extras to cut out the noise.
 - **[XX-Dialer](https://github.com/Piercingxx/xx-dialer)** — pretty much the same as TxxT but for calls, with a ring policy attached: spam never rings, starred contacts always ring, everyone else rings only inside their allowed time-window.
-- **XX-Contacts** (private) — a UI over the system address book. Not a second contact store, not CardDAV, not a dialer. Ring policy stays in XX-Dialer. No INTERNET.
+- **[XX-Contacts](https://github.com/Piercingxx/xx-contacts)** — a UI over the system address book. Not a second contact store, not CardDAV, not a dialer. Ring policy stays in XX-Dialer. No INTERNET.
 - **[Nope-Mode](https://github.com/Piercingxx/Nope-Mode)** — selected apps go silent and un‑openable, on a schedule or on demand. Focus Mode for GrapheneOS, where Digital Wellbeing doesn't exist. Runs as device owner; no accounts, no network, no analytics.
 - **[XX-Calculator](https://github.com/Piercingxx/xx-calculator)** — Its a Calculator, that matches my theme. BigDecimal engine, no Android dependencies in the math.
 - **XX-Calendar** (private) — syncs with Google through DAVx⁵, because sometimes we still need to use Google, but not on my phone, refuses to do the other ninety things Google Calendar does at you. No INTERNET on the app. The CalDAV backend lives in the same repo.
@@ -39,12 +39,12 @@ So while we wait, my daily is a Pixel 9 Pro running GrapheneOS, and I've replace
 - **[XX-Clock](https://github.com/Piercingxx/xx-clock)** — clock, alarms, timers, offline. Per‑alarm ringtones.
 - **[XX-Weather](https://github.com/Piercingxx/xx-weather)** — ZIP in, forecast out. NWS first, Open-Meteo if NOAA is down. No location permission, no Play Services.
 - **[XX-Files](https://github.com/Piercingxx/xx-files)** — a real directory tree (`File.listFiles()`), not MediaStore “Recent / Images / Downloads”. Per‑volume trash, 30‑day restore. No INTERNET.
-- **XX-Keyboard** (private) — swipe-first English keyboard with Colemak and Piercing layouts. Glide typing, no INTERNET permission, no proprietary Google blob.
-- **XX-Auth** (private) — offline TOTP/HOTP. Secrets stay in the Android Keystore. Scan a QR or paste a URI. No network, no cloud account, no telemetry.
-- **XX-Camera** (private) — Pixel-class camera: AUTO, MANUAL, panorama/360. Writes JPEG/DNG/video on the phone. No INTERNET. The library is XX-Photos, not this APK.
-- **XX-Photos** (private) — private photo library on hardware I own. Phone client plus FastAPI server in the same repo. Timeline, backup, albums; tagging stays on the server.
-- **XX-Audiobook** (private) — FastAPI server + Kotlin/Compose client in one repo. Audiobooks, ebooks, podcasts, RSS from my NAS. Not a storefront account.
-- **XX-Vitals** (private) — a cleanroom Google Fit replacement: entered on the phone, Postgres on my own NAS, no cloud anywhere.
+- **[XX-Keyboard](https://github.com/Piercingxx/xx-keyboard)** — swipe-first English keyboard with Colemak and Piercing layouts. Glide typing, no INTERNET permission, no proprietary Google blob.
+- **[XX-Auth](https://github.com/Piercingxx/xx-auth)** — offline TOTP/HOTP. Secrets stay in the Android Keystore. Scan a QR or paste a URI. No network, no cloud account, no telemetry.
+- **[XX-Camera](https://github.com/Piercingxx/xx-camera)** — Pixel-class camera: AUTO, MANUAL, panorama/360. Writes JPEG/DNG/video on the phone. No INTERNET. The library is XX-Photos, not this APK.
+- **[XX-Photos](https://github.com/Piercingxx/xx-photos)** — private photo library on hardware I own. Phone client plus FastAPI server in the same repo. Timeline, backup, albums; tagging stays on the server.
+- **[XX-Audiobook](https://github.com/Piercingxx/xx-audiobook)** — FastAPI server + Kotlin/Compose client in one repo. Audiobooks, ebooks, podcasts, RSS from my NAS. Not a storefront account.
+- **[XX-Vitals](https://github.com/Piercingxx/xx-vitals)** — a cleanroom Google Fit replacement: entered on the phone, Postgres on my own NAS, no cloud anywhere.
 
 The app that works with Android and Linux right now:
 - **[XX-Drive](https://github.com/Piercingxx/xx-drive)** — self‑hosted file sync: one static Go binary on the server, plus a web UI, a Linux CLI client, and an Android app. Files stay as plain files on disk, metadata in SQLite.
