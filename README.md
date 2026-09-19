@@ -8,7 +8,7 @@
 I prefer a simple clean UI based on a reproducible dotfile ecosystem, with customizations that make sense and eliminate friction.
 
 - I had to build a few things to make that happen:
-	- A twelve‑app phone suite for GrapheneOS — launcher, dialer, SMS, notes, calendar, clock, calculator, email, weather, file sync, app blocker, fitness tracker — plus a keyboard. My daily driver, built by me.
+	- A GrapheneOS phone suite — launcher, store, files, camera, photos, notes, calendar, mail, radio, audiobooks, the rest — plus a keyboard. My daily driver, built by me.
 	- A Wayland shell for Linux phones, so the whole suite has somewhere to go next.
 	- A series of reproducible Linux menu‑driven installers that turn “fresh ISO” into “daily driver”.
 	- A local‑first AI assistant that runs entirely on my own hardware.
@@ -26,21 +26,25 @@ The mobile market is overrun by two equally non‑valid options... then there ar
 
 So while we wait, my daily is a Pixel 9 Pro running GrapheneOS, and I've replaced the stock experience one app at a time:
 
+- **XX-Apps** (private) — the suite store. One login (Skippy username/password), one catalog, updates from the house forge. Not Play. Not F-Droid. Not Obtainium.
 - **[XX-Launcher](https://github.com/Piercingxx/XX-Launcher)** — text‑first Android launcher (Kotlin). No icons, no wallpaper clutter. Search‑first drawer, 8 home slots, inline folders, gestures, widgets, theme presets, JSON backup. The design ancestor of everything below.
 - **[TxxT](https://github.com/Piercingxx/TxxT)** — SMS in the same style as the launcher, with a few extras to cut out the noise.
 - **[XX-Dialer](https://github.com/Piercingxx/xx-dialer)** — pretty much the same as TxxT but for calls, with a ring policy attached: spam never rings, starred contacts always ring, everyone else rings only inside their allowed time-window.
-- **XX-Contacts** (under construction) — Theme-matched contact list with more group options than starred.
+- **XX-Contacts** (private) — a UI over the system address book. Not a second contact store, not CardDAV, not a dialer. Ring policy stays in XX-Dialer. No INTERNET.
 - **[Nope-Mode](https://github.com/Piercingxx/Nope-Mode)** — selected apps go silent and un‑openable, on a schedule or on demand. Focus Mode for GrapheneOS, where Digital Wellbeing doesn't exist. Runs as device owner; no accounts, no network, no analytics.
 - **[XX-Calculator](https://github.com/Piercingxx/xx-calculator)** — Its a Calculator, that matches my theme. BigDecimal engine, no Android dependencies in the math.
-- **[XX-Calendar](https://github.com/Piercingxx/xx-calendar)** — syncs with Google through DAVx⁵, because sometimes we still need to use Google, but not on my phone, refuses to do the other ninety things Google Calendar does at you.
-- **xx-calendar-server** (private) — CalDAV backend for the above. Unmodified Radicale plus estate auth/rights, strict per-user isolation. DAVx⁵ talks to my NAS; the app never learns the difference.
+- **XX-Calendar** (private) — syncs with Google through DAVx⁵, because sometimes we still need to use Google, but not on my phone, refuses to do the other ninety things Google Calendar does at you. No INTERNET on the app. The CalDAV backend lives in the same repo.
 - **[XX-Email](https://github.com/Piercingxx/xx-email)** — Gmail without the proprietary Google blob. Tabs, snooze, undo-send, operator search. No Play Services, no analytics.
 - **[XX-Note](https://github.com/Piercingxx/xx-note)** — Keep's front end over a folder of Markdown files on my own NAS. Every note is one plain file with frontmatter. Delete the app and lose nothing.
 - **[XX-Clock](https://github.com/Piercingxx/xx-clock)** — clock, alarms, timers, offline. Per‑alarm ringtones.
 - **[XX-Weather](https://github.com/Piercingxx/xx-weather)** — ZIP in, forecast out. NWS first, Open-Meteo if NOAA is down. No location permission, no Play Services.
-- **XX-Files** (lol & under construction) — File manager that actually respects the hierarchy.
+- **[XX-Files](https://github.com/Piercingxx/xx-files)** — a real directory tree (`File.listFiles()`), not MediaStore “Recent / Images / Downloads”. Per‑volume trash, 30‑day restore. No INTERNET.
 - **XX-Keyboard** (private) — swipe-first English keyboard with Colemak and Piercing layouts. Glide typing, no INTERNET permission, no proprietary Google blob.
-- **[XX-Vitals](https://github.com/Piercingxx/xx-vitals)** — a cleanroom Google Fit replacement: entered on the phone, Postgres on my own NAS, no cloud anywhere.
+- **XX-Auth** (private) — offline TOTP/HOTP. Secrets stay in the Android Keystore. Scan a QR or paste a URI. No network, no cloud account, no telemetry.
+- **XX-Camera** (private) — Pixel-class camera: AUTO, MANUAL, panorama/360. Writes JPEG/DNG/video on the phone. No INTERNET. The library is XX-Photos, not this APK.
+- **XX-Photos** (private) — private photo library on hardware I own. Phone client plus FastAPI server in the same repo. Timeline, backup, albums; tagging stays on the server.
+- **XX-Audiobook** (private) — FastAPI server + Kotlin/Compose client in one repo. Audiobooks, ebooks, podcasts, RSS from my NAS. Not a storefront account.
+- **XX-Vitals** (private) — a cleanroom Google Fit replacement: entered on the phone, Postgres on my own NAS, no cloud anywhere.
 
 The app that works with Android and Linux right now:
 - **[XX-Drive](https://github.com/Piercingxx/xx-drive)** — self‑hosted file sync: one static Go binary on the server, plus a web UI, a Linux CLI client, and an Android app. Files stay as plain files on disk, metadata in SQLite.
@@ -61,7 +65,7 @@ Which brings us to...
 ## Linux 🐧
 
 ### Installers & dotfiles (the classics)
-- **Distro “mod” installers** — [Arch](https://github.com/Piercingxx/arch-mod), [Debian](https://github.com/Piercingxx/debian-mod), [Fedora](https://github.com/Piercingxx/fedora-mod), [Void](https://github.com/Piercingxx/void-mod), [Artix](https://github.com/Piercingxx/artix-mod), [FreeBSD](https://github.com/Piercingxx/freebsd-mod), plus `mini` variants for tablets and note‑taking machines ([arch-mini-mod](https://github.com/Piercingxx/arch-mini-mod), [debian-mini-mod](https://github.com/Piercingxx/debian-mini-mod)), [Pi-Gnome](https://github.com/Piercingxx/Pi-Gnome) for the Raspberry Pi 5, and [debian-server](https://github.com/Piercingxx/debian-server) for the media & AI box
+- **[linux-mod](https://github.com/Piercingxx/linux-mod)** — one workstation installer for Arch, Artix, Debian/Ubuntu, Fedora, Void, openSUSE, and Alpine. The per‑distro trees I still keep are [Arch](https://github.com/Piercingxx/arch-mod), [Debian](https://github.com/Piercingxx/debian-mod), [FreeBSD](https://github.com/Piercingxx/freebsd-mod), plus `mini` variants for tablets ([arch-mini-mod](https://github.com/Piercingxx/arch-mini-mod), [debian-mini-mod](https://github.com/Piercingxx/debian-mini-mod))
 	- Menu‑driven setup (whiptail) with sensible defaults (mine)
 	- Hyprland, Awesome, BSPWM, DWM, i3, Sway, Qtile and GNOME mods, Flatpak, UFW, developer tooling
 	- Optional NVIDIA + Microsoft Surface kernel support assembled for easy script install
@@ -84,25 +88,26 @@ Drivers and scripts for hardware that isn’t in the Linux kernel:
 ## Local AI & self‑hosting 🤖
 
 - **Skippy** (private) — the local‑first AI assistant on my own hardware and private cloud.
-	- Skippy is truly a universal AI:
+	- Skippy is a universal AI:
 		- Terminal coding agent
 		- Personal assistant with Home Assistant tie‑in
 		- Per‑person / per‑location recognition and memory
 		- Mobile app remote over the Skippy-Tel-Network (text *and* voice)
 		- Optional Discord presence (text *and* voice)
+	- Home Assistant TTS is a per‑sentence Wyoming bridge that lives inside Skippy. There is no separate TTS repo.
 	- Skippy orchestrates. Bilby builds. Nagatha audits and cleanrooms. They do not share a session.
 	- The brain is served locally by whatever model your hardware can manage.
 	- Designed to be subscription‑free, secure, private, and only runs on local hardware.
 - **Bilby** (private) — Skippy add‑on: Skippy queues the work, Bilby builds.
 - **Nagatha** (private) — Skippy add‑on: Skippy's independent auditor and cleanroom counterpart.
 - **skippy-tel-network** (private) — Headscale mesh, cross-node sync daemon, Cloudflare LB ingress, split-horizon DNS, location gateway. The federated network Skippy breaths on. Everything else rides on this.
+- **Skippy-Speaker** (private) — drop‑in replacement electronics for Google Home Max–class speakers. Home Assistant voice satellite on hardware I own.
 - **xx-chat** (private) — Mattermost-wire compatible staff/group chat with AI agent tie in, event-log spine, membership walls, agents-as-staff. Offline-first; agents post through the same door people do.
 - **Roscoe** (private) — Skippy add‑on: face‑recognition presence and greetings for home and business sites, served over the Skippy-Tel-Network.
-- **skpp‑radio** (private) — Skippy add‑on: a local radio station that streams to multiple locations inside the Skippy-Tel-Network. Skippy writes and voices the ads (if you want them), controls the Home Assistant speakers, and airs spots on a schedule. Because he can.
+- **skpp‑radio** (private) — Skippy add‑on: a local radio station that streams to multiple locations inside the Skippy-Tel-Network. FastAPI server + Kotlin phone client in the same repo — listen on the phone, drive house speakers by zone, air spots on a schedule. Skippy writes and voices the ads if you want them.
 - **elder-ai** (private) — Skippy add‑on: This is a local AI model trainer. Runs on this box. No cloud.
 - **Margaret** (private) — Skippy add‑on: front‑desk business agent. Answers from a trained facts store, drafts email (never sends), interactive client chat on the website. Local brain only.
 - **Jal** (private) — Skippy add‑on: offline inventory sourcing engine. House catalog, USD quotes, a staff chatbot via xx-chat; everything stays on the machine.
-- **[wyoming-sentence-tts](https://github.com/Piercingxx/wyoming-sentence-tts)** — fork of the Wyoming‑protocol TTS bridge that streams audio per sentence, so your voice assistant starts talking after the first sentence instead of the last one.
 - **[XX-Stack](https://github.com/Piercingxx/xx-stack)** — let your local AI use every computer you own. Agent contracts, routing policy, an MCP server, and a local inference control plane over Tailscale. Cloud APIs are off unless you switch them on. This is what Skippy started as; it grew alongside as a benchmark tool.
 - **[free-opencode-hermes](https://github.com/Piercingxx/free-opencode-hermes)** — a local proxy so OpenCode (and Hermes-Agent) can run from the terminal against providers you already have keys for, or models on machines you own. Keys stay in the proxy, not in the agent.
 
@@ -124,8 +129,9 @@ The 1998 tank‑RTS/FPS hybrid that refuses to die...and I intend to keep it tha
 ## Odds & ends 🗃️
 
 - **piercingxx-branding** (private) — the brand system behind all of the above: color, type, logomark, and voice.
-- **xx-platform** (private) — a full business web platform: booking, chat, docs, and forms. Next.js + Prisma.
+- **xx-platform** (private) — a self‑hosted ops platform for the businesses under XX: scheduling, bookkeeping, documents, reminders. Next.js + Prisma + PostgreSQL. One login, one database.
 - **[piercing-keyboard-layout](https://github.com/Piercingxx/piercing-keyboard-layout)** — my own layout that no one else will ever use. One layout, every platform: Linux (xkb), Windows, Android/GrapheneOS, and QMK/Vial ortho boards.
+- **[tailscale-protonvpn-exitnode](https://github.com/Piercingxx/tailscale-protonvpn-exitnode)** — docker‑compose: Tailscale plus ProtonVPN as an exit node.
 - **book-list** (private) — my ongoing attempt to separate the worthwhile from the well‑marketed nonsense.
 
 ---
