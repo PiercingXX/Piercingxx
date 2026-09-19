@@ -46,11 +46,7 @@ So while we wait, my daily is a Pixel 9 Pro running GrapheneOS, and I've replace
 - **[XX-Keyboard](https://github.com/Piercingxx/xx-keyboard)** — swipe-first English keyboard with Colemak and Piercing layouts. Glide typing, no INTERNET permission, no proprietary Google blob.
 - **[XX-Auth](https://github.com/Piercingxx/xx-auth)** — offline TOTP/HOTP. Secrets stay in the Android Keystore. Scan a QR or paste a URI. No network, no cloud account, no telemetry.
 - **[XX-Camera](https://github.com/Piercingxx/xx-camera)** — Pixel-class camera: AUTO, MANUAL, panorama/360. Writes JPEG/DNG/video on the phone. No INTERNET. The library is XX-Photos, not this APK.
-
-**Phone + the house**
-
-Linux already runs the servers. The Android apps exist. Native Linux apps that look and work the same are the rest of the job.
-
+The rest of this list has Linux server counterparts in the repos.
 - **[XX-Photos](https://github.com/Piercingxx/xx-photos)** — private photo library on hardware I own. Phone client plus FastAPI server in the same repo. Timeline, backup, albums; tagging stays on the server.
 - **[XX-Audiobook](https://github.com/Piercingxx/xx-audiobook)** — FastAPI server + Kotlin/Compose client in one repo. Audiobooks, ebooks, podcasts, RSS from my NAS. Not a storefront account.
 - **[XX-Vitals](https://github.com/Piercingxx/xx-vitals)** — a cleanroom Google Fit replacement: entered on the phone, Postgres on my own NAS, no cloud anywhere.
